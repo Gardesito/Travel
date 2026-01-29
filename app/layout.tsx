@@ -33,7 +33,7 @@ export default function RootLayout({
         <Navbar/>
         {children}
         <a
-          href="https://wa.me/?text=Hola%20quisiera%20más%20información"
+          href="https://wa.me/+5493512435151"
           aria-label="Abrir conversación de WhatsApp"
           target="_blank"
           rel="noreferrer noopener"

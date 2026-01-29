@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hero from "../component/hero"
+import { Intro } from "@/component/intro";
 import Destinos from "@/component/destinos";
 import FAQ from "@/component/faq";
 import Footer from "@/component/footer";
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="">
 
 <Hero/>
+<Intro/>
 <Destinos/>
 <Information/>
 <Blog/>
