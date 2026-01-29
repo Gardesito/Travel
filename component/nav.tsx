@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-filter backdrop-blur-lg bg-white/30 border border-white/50">
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         {/* Logo / Marca */}
-        <a href="#" className="flex items-center space-x-2">
+        <a href="/" className="flex items-center space-x-2">
           <div className="bg-white/80 rounded-full p-2">
             {/* Aquí podés poner un ícono real o imagen */}
             ✈️
