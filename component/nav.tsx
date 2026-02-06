@@ -8,7 +8,7 @@ export default function Navbar() {
     { name: "Sobre mí", href: "#" },
     { name: "Diseños de Viajes", href: "#" },
     { name: "Información", href: "#" },
-    { name: "Información", href: "#" },
+    { name: "Blog", href: "#" },
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function Navbar() {
             <a
               key={i}
               href={link.href}
-              className="text-gray-800 hover:text-blue-600 transition-colors"
+              className="text-white-900 hover:text-blue-600 transition-colors"
             >
               {link.name}
             </a>

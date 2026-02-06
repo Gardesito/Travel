@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "../component/hero"
 import { Intro } from "@/component/intro";
+import SobreMi from "@/component/sobremi";
 import Destinos from "@/component/destinos";
 import FAQ from "@/component/faq";
 import Footer from "@/component/footer";
@@ -15,6 +16,7 @@ export default function Home() {
 
 <Hero/>
 <Intro/>
+<SobreMi/>
 <Destinos/>
 <Information/>
 <Blog/>

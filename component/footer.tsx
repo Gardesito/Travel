@@ -77,7 +77,7 @@ export default function Footer() {
                 <h3 className="text-lg md:text-xl font-bold text-white mb-4 md:mb-6">Mis redes</h3>
                 <div className="flex gap-3 md:gap-4">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/vane_cordobaa/"
                     className="w-11 h-11 md:w-12 md:h-12 rounded-full border-2 border-white/80 flex items-center justify-center text-white hover:bg-white hover:text-gray-900 transition-all duration-300"
                     aria-label="Instagram"
                   >
@@ -95,7 +95,7 @@ export default function Footer() {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="wa.link/85gauk"
                     className="w-11 h-11 md:w-12 md:h-12 rounded-full border-2 border-white/80 flex items-center justify-center text-white hover:bg-white hover:text-gray-900 transition-all duration-300"
                     aria-label="WhatsApp"
                   >
