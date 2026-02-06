@@ -1,9 +1,13 @@
 import Footer from "./footer";
+import ScrollReveal from "@/component/ScrollReveal";
+
 export default function Blog1() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Contenedor principal */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-12 lg:py-16">
+      {/* Contenido que aparece con scroll */}
+      <ScrollReveal>
+        {/* Contenedor principal */}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-12 lg:py-16">
         
         {/* Título principal */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 italic mb-8 md:mb-12">
@@ -84,7 +88,8 @@ export default function Blog1() {
             <p className="font-medium">Yo soy Vanesa, la chica de La Posta que un día miró el cielo... y decidió volar.</p>
           </div>
         </div>
-      </div>
+        </div>
+      </ScrollReveal>
       <Footer/>
     </div>
   );

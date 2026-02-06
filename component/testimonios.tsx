@@ -1,5 +1,7 @@
+"use client";
 // components/Testimonials.tsx
 import React from "react";
+import ScrollReveal from "@/component/ScrollReveal";
 
 type Testimonial = {
   id: number;
@@ -32,8 +34,9 @@ const testimonials: Testimonial[] = [
 
 export const Testimonials: React.FC = () => {
   return (
-    <section className="py-12 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <ScrollReveal>
+      <section className="py-12 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-semibold mb-8 text-gray-800">Testimonios</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map(({ id, author, text, date }) => (
@@ -49,8 +52,9 @@ export const Testimonials: React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </ScrollReveal>
   );
 };
 

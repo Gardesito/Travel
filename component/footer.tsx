@@ -1,8 +1,12 @@
+"use client";
+import ScrollReveal from "@/component/ScrollReveal";
+
 export default function Footer() {
   return (
-    <footer className="relative w-full">
-      {/* Sección completa con imagen de fondo */}
-      <div className="relative w-full min-h-[700px] lg:min-h-[750px] overflow-hidden">
+    <ScrollReveal>
+      <footer className="relative w-full">
+        {/* Sección completa con imagen de fondo */}
+        <div className="relative w-full min-h-[700px] lg:min-h-[750px] overflow-hidden">
         {/* Imagen de fondo */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -150,5 +154,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </ScrollReveal>
   );
 }

@@ -1,10 +1,13 @@
+"use client";
 // components/FeatureSection.tsx
 import React from "react";
+import ScrollReveal from "@/component/ScrollReveal";
 
 export const FeatureSection: React.FC = () => {
   return (
-    <section className="py-12 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-8">
+    <ScrollReveal>
+      <section className="py-12 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-8">
         {/* Columna de texto (features) */}
         <div className="w-full md:w-1/2 space-y-6">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -52,8 +55,9 @@ export const FeatureSection: React.FC = () => {
             className="w-full h-auto rounded-lg object-cover shadow-md"
           />
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </ScrollReveal>
   );
 };
 

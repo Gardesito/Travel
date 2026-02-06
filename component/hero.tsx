@@ -1,7 +1,12 @@
+"use client";
+
+import ScrollReveal from "@/component/ScrollReveal";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <section className="relative h-screen w-full overflow-hidden">
+      <ScrollReveal>
+        <section className="relative h-screen w-full overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -60,6 +65,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
     </main>
   );
 }

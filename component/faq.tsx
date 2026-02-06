@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import ScrollReveal from "@/component/ScrollReveal";
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -38,8 +39,9 @@ export default function FAQ() {
   };
 
   return (
-    <section className="w-full px-6 md:px-12 lg:px-16 py-16 md:py-24 bg-white">
-      <div className="max-w-7xl mx-auto">
+    <ScrollReveal>
+      <section className="w-full px-6 md:px-12 lg:px-16 py-16 md:py-24 bg-white">
+        <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
           
           {/* Imagen izquierda */}
@@ -115,7 +117,8 @@ export default function FAQ() {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </ScrollReveal>
   );
 }

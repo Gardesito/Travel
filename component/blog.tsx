@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import ScrollReveal from "@/component/ScrollReveal";
 
 export default function Blog() {
     const destinos = [
@@ -81,8 +83,9 @@ export default function Blog() {
     );
   
     return (
-      <section className="w-full px-6 md:px-12 lg:px-16 py-16 md:py-24 bg-white">
-        <div className="max-w-7xl mx-auto">
+      <ScrollReveal>
+        <section className="w-full px-6 md:px-12 lg:px-16 py-16 md:py-24 bg-white">
+          <div className="max-w-7xl mx-auto">
           {/* Título de la sección */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-12 md:mb-16 text-center">
           Conoce mi blog
@@ -109,7 +112,8 @@ export default function Blog() {
               )
             ))}
           </div>
-        </div>
-      </section>
+          </div>
+        </section>
+      </ScrollReveal>
     );
   }
