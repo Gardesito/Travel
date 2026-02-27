@@ -2,69 +2,53 @@
 
 import ScrollReveal from "@/component/ScrollReveal";
 
-export default function Home() {
+export default function Hero() {
   return (
     <main className="min-h-screen">
       <ScrollReveal>
-        <section className="relative h-screen w-full overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <img
-            src="https://res.cloudinary.com/dtmziqubb/image/upload/v1764894014/Rectangle-1_uyt5r8.webp"
-            alt="Mujer sonriente usando tablet"
-            className="h-full w-full object-cover"
-          />
-          {/* Overlay gradiente para mejorar legibilidad */}
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
-        </div>
+        <section className="relative h-screen w-full overflow-hidden min-h-[500px]">
+          {/* Video de fondo - loop, responsive */}
+          <div className="absolute inset-0">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+            >
+              <source
+                src="https://nafulltur.com.ar/wp-content/uploads/2026/01/banner_video_inicio.webm"
+                type="video/webm"
+              />
+            </video>
+            {/* Overlay oscuro para legibilidad */}
+            <div className="absolute inset-0 bg-black/40" />
+          </div>
 
-        {/* Content */}
-        <div className="relative z-10 flex h-full flex-col justify-between px-6 py-8 md:px-12 md:py-16 lg:px-20">
-          {/* Hero Text */}
-          <div className="flex flex-1 items-center">
+          {/* Contenido */}
+          <div className="relative z-10 flex h-full items-center px-4 sm:px-6 md:px-12 lg:px-20">
             <div className="max-w-2xl">
-              <h1 className="mb-8 font-bold leading-tight text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Explorá destinos,
+              {/* Línea superior */}
+              <p className="text-sm md:text-base mb-4 md:mb-6">
+                <span style={{ color: "#5DD4D4" }}>Nuevas Rutas</span>
+                <span style={{ color: "#5DD4D4" }}> • </span>
+                <span className="text-white">Nuevos Destino</span>
+              </p>
+
+              {/* Título principal */}
+              <h1 className="font-bold leading-tight text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 md:mb-8">
+                Explorá destinos, viví
                 <br />
-                viví experiencias,
-                <br />
-                guardá recuerdos.
+                experiencias, guardá <span style={{ color: "#4285F4" }}>recuerdos.</span>
               </h1>
 
-              <button
-                className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-8 py-3 text-base font-semibold text-white transition-transform hover:bg-blue-700 hover:scale-105"
-              >
-                Hablemos
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </button>
+              {/* Párrafo descriptivo */}
+              <p className="text-white text-base md:text-lg leading-relaxed max-w-xl">
+                Hola, soy Vanesa. Desde un pequeño pueblo al mundo, convertí mi pasión por viajar en una forma de inspirar y acompañar a otros a vivir experiencias que dejan huella.
+              </p>
             </div>
           </div>
-
-          {/* Tags at bottom */}
-          <div className="flex flex-wrap items-center gap-3 mt-8">
-            <span className="text-sm font-medium text-white/90">Tags</span>
-            <div className="flex flex-wrap gap-2">
-              {["Viajes", "Reservas", "Rutas"].map((tag) => (
-                <span
-                  key={tag}
-                  className="rounded-full bg-black/40 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
       </ScrollReveal>
     </main>
   );
