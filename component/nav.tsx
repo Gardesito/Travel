@@ -18,8 +18,8 @@ export default function Navbar() {
   const navLinks = [
     { name: "Sobre mí", href: "#sobremi", icon: "person", highlight: true },
     { name: "Diseños de Viajes", href: "#destinos", icon: "document" },
-    { name: "Informacion", href: "#informacion", icon: "info" },
-    { name: "Blog", href: "#blog", icon: "blog" },
+    { name: "Donaciones", href: "https://cafecito.app/", target: "_blank", icon: "info" },
+    { name: "Blog", href: "https://cafecito.app/alma-viajera", target: "_blank", icon: "blog" },
     { name: "Tienda", href: "#tienda", icon: "shop" },
     { name: "Contacto", href: "#contact", icon: "contact" },
   ];

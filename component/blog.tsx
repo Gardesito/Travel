@@ -18,24 +18,24 @@ export default function Blog() {
     },
     {
       id: 2,
-      titulo: "Humahuaca",
-      ubicacion: "Jujuy",
+      titulo: "Año Nuevo en el Brasil",
+      ubicacion: "Brasil",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219093/vaneeee5_fkceqw.jpg",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
-      link: "/blog1"
+      link: "/brasil"
     },
     {
       id: 3,
       titulo: "Humahuaca",
-      ubicacion: "Jujuy",
+      ubicacion: "Ecuador",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219267/Sin_t%C3%ADtulo-2ffff_jpw9jj.jpg",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
       link: "/blog1"
     },
     {
       id: 4,
-      titulo: "Humahuaca",
-      ubicacion: "Jujuy",
+      titulo: "Cordoba",
+      ubicacion: "Cordoba",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1765215006/IMG_00005_zxz3wo.jpg",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
       link: "/blog1"

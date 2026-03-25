@@ -21,8 +21,8 @@ export default function Destinos() {
     },
     {
       id: 3,
-      nombre: "Humahuaca",
-      ubicacion: "Jujuy",
+      nombre: "Taj Mahal",
+      ubicacion: "India",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1765152098/reflexion-del-taj-mahal-en-la-piscina-reflectante-de-la-ciudad_dj1q1i.jpg",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer."
     }
