@@ -30,7 +30,7 @@ export default function Blog() {
       ubicacion: "Ecuador",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219267/Sin_t%C3%ADtulo-2ffff_jpw9jj.jpg",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
-      link: "/blog1"
+      link: "/404"
     },
     {
       id: 4,

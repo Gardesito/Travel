@@ -14,16 +14,16 @@ export default function Destinos() {
     },
     {
       id: 2,
-      nombre: "Humahuaca",
-      ubicacion: "Jujuy",
+      nombre: "Guayaquil",
+      ubicacion: "Ecuador",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1772218777/Sin_t%C3%ADtulo-1y_egz5i1.png",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer."
     },
     {
       id: 3,
       nombre: "Taj Mahal",
-      ubicacion: "India",
-      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1765152098/reflexion-del-taj-mahal-en-la-piscina-reflectante-de-la-ciudad_dj1q1i.jpg",
+      ubicacion: "China",
+      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457172/Rectangle_7_cn7a63.png",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer."
     }
   ];

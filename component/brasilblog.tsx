@@ -49,7 +49,8 @@ type Block =
   | { type: "p"; text: string }
   | { type: "gallery" }
   | { type: "queHacer"; items: string[] }
-  | { type: "recomendacion"; items: string[] };
+  | { type: "recomendacion"; items: string[] }
+  | { type: "tipViajero"; items: string[] };
 
 type SectionDef = {
   id: string;
@@ -94,7 +95,7 @@ const sections: SectionDef[] = [
         text: "Sin autos, sin estrés. Ilha Grande es el paraíso para desconectar.",
       },
       {
-        type: "recomendacion",
+        type: "tipViajero",
         items: [
           "Playa Lopes Mendes (de las más lindas de Brasil)",
           "Senderos por la selva",
@@ -308,6 +309,22 @@ export default function BrasilBlog() {
                             />
                           </svg>
                           Recomendación:
+                        </p>
+                        <ul className="list-disc space-y-3 pl-5 sm:pl-6 md:pl-7">
+                          {block.items.map((item, i) => (
+                            <li key={i} className={bodyText}>
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  }
+                  if (block.type === "tipViajero") {
+                    return (
+                      <div key={idx} className="mb-8">
+                        <p className={`${bodyText} mb-3 font-semibold text-gray-900`}>
+                          Tip viajero:
                         </p>
                         <ul className="list-disc space-y-3 pl-5 sm:pl-6 md:pl-7">
                           {block.items.map((item, i) => (

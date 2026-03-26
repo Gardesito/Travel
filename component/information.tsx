@@ -50,7 +50,7 @@ export const FeatureSection: React.FC = () => {
         {/* Columna de imagen */}
         <div className="w-full md:w-1/2">
           <img
-            src="https://res.cloudinary.com/dtmziqubb/image/upload/v1764895697/VANE_MIRAMAR_102_1_atpftm.jpg"
+            src="https://res.cloudinary.com/dtmziqubb/image/upload/v1772219267/Sin_t%C3%ADtulo-2ffff_jpw9jj.jpg"
             alt="Imagen representativa de viaje"
             className="w-full h-auto rounded-lg object-cover shadow-md"
           />

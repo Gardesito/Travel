@@ -31,7 +31,10 @@ export default function ScrollReveal({
         });
       },
       {
-        threshold: 0.15,
+        // 0 = cualquier píxel visible dispara. Un umbral alto (p. ej. 0.15) con un
+        // contenedor muy alto hace que intersectionRatio casi nunca lo alcance y el
+        // contenido quede en opacity-0 (p. ej. todo BrasilBlog dentro de un solo ScrollReveal).
+        threshold: 0,
       }
     );
 
