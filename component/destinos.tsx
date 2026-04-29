@@ -22,8 +22,8 @@ export default function Destinos() {
     {
       id: 3,
       nombre: "Taj Mahal",
-      ubicacion: "China",
-      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457172/Rectangle_7_cn7a63.png",
+      ubicacion: "India",
+      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483590/22685_s0blke.jpg",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer."
     }
   ];

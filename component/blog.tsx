@@ -42,11 +42,11 @@ export default function Blog() {
     },
     {
       id: 5,
-      titulo: "Humahuaca",
+      titulo: "Las 7 Maravillas del Mundo",
       ubicacion: "Jujuy",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1769712429/Firefly_Gemini_Flash_12_j4pb7h.png",
       descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
-      link: "/blog1"
+      link: "/7maravillas"
     },
     {
       id: 6,
