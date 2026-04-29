@@ -18,7 +18,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Sobre mí", href: "#sobremi", icon: "person", highlight: true },
     { name: "Diseños de Viajes", href: "#destinos", icon: "document" },
-    { name: "Donaciones", href: "https://cafecito.app/", target: "_blank", icon: "info" },
+    { name: "Donaciones", href: "https://cafecito.app/almaviajera", target: "_blank", icon: "info" },
     { name: "Blog", href: "https://cafecito.app/alma-viajera", target: "_blank", icon: "blog" },
     { name: "Tienda", href: "#tienda", icon: "shop" },
     { name: "Contacto", href: "#contact", icon: "contact" },
@@ -101,7 +101,7 @@ export default function Navbar() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
-              <span>+3884601000</span>
+              <span>+549512435151</span>
             </a>
             <span className={`flex items-center gap-2 ${textColor}`}>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

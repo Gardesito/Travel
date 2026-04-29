@@ -46,6 +46,15 @@ export default function Hero() {
               <p className="text-white text-base md:text-lg leading-relaxed max-w-xl">
                 Hola, soy Vanesa. Desde un pequeño pueblo al mundo, convertí mi pasión por viajar en una forma de inspirar y acompañar a otros a vivir experiencias que dejan huella.
               </p>
+
+              <a
+                href="https://wa.me/5493512435151"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-blue-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 sm:mt-8 sm:w-auto sm:text-base"
+              >
+                Contacto
+              </a>
             </div>
           </div>
         </section>
