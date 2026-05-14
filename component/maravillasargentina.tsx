@@ -4,7 +4,7 @@ import Footer from "./footer";
 import ScrollReveal from "@/component/ScrollReveal";
 
 const HERO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457180/Sin_t%C3%ADtuaaaaalo-1_l4btvj.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1777396439/Sin_t%C3%ADtulo-1dasdsadasdas_fgdplv.jpg";
 
 const INTRO_IMAGE =
   "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219101/Sin_t%C3%ADtulo-1VX_tgercw.jpg";
@@ -13,90 +13,93 @@ const INTRO_IMAGE =
 const wonders = [
   {
     id: 1,
-    title: "Chichén Itzá (México)",
-    text: "Fue la primera maravilla que visité, sentí que el tiempo se detenía. Al caminar frente a la majestuosa pirámide de Kukulkán, mis ojos se inundaron de lágrimas , de asombro y humildad, como si estuviera frente a  los antiguos mayas. Cada piedra parecía latir con historias de rituales, sabiduría y devoción, y por un instante, me sentí conectada con algo mucho más grande , con la fuerza de generaciones que dejaron su huella para que hoy pudiéramos maravillarnos",
+    title: "Cataratas del Iguazú  (Misiones)",
+    text: "Una de las cascadas más impresionantes del mundo. . Más de 270 saltos de agua rodeados de selva tropical. Es un lugar increíble ",
     image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483290/mejora_la_calidad_de_esta_202604291421_tw41bs.jpg",
     recomendaciones: [
-        "Ir temprano para evitar calor y multitudes",
-        "Llevar agua y protector solar",
-        "Contratar guía para entender la historia",
+        "Lleva piloto o ropa impermeable. ",
+        "Ve temprano para evitar calor y más gente.",
+        "Contratar guía para entender la historia.",
+        "Ojo con los coatíes: no les des comida.",
        ],
     
       mejorEpoca: " Noviembre a marzo (clima más fresco y seco, menos calor y menos lluvias)"},
   {
     id: 2,
-    title: "Cristo Redentor (Brasil)",
-    text: "En 2018, llegó la segunda: Ver esa majestuosa estatua sobre el cerro Corcovado y contemplar toda la ciudad desde las alturas fue una experiencia que realmente te deja sin palabras. La combinación de paisaje, arquitectura y emoción hace que sea un lugar inolvidable para cualquier viajero",
+    title: " Glaciar Perito Moreno (Santa Cruz)",
+    text: "Un gigante de hielo famoso por sus impresionantes desprendimientos que te deja impactada.",
     image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483396/mejora_la_calidad_de_esta_202604291422_jtmzjz.jpg",
     recomendaciones: [
-        "Ir en días despejados",
-        "Comprar entrada anticipada",
-        "Llevar ropa cómoda y lluvia ligera",
-        "Llevar agua y protector solar"
+        "Abrigo en capas aunque haya sol.",
+        "El  trekking sobre hielo es increíble.",
+        "Lleva batería extra: vas a sacar MUCHAS fotos.",
+        "Quédate en silencio un rato para escuchar el hielo romperse."
       ],
     
       mejorEpoca: "Diciembre a marzo (verano en Brasil) o septiembre a noviembre (primavera)"},
   {
     id: 3,
-    title: "Machu Picchu (Perú)",
-    text: "Fue la tercera maravilla en visitar en el 2018 que me robó el aliento. Me emocioné y sentí una mezcla de admiración y paz profunda, como si hubiera llegado a un lugar donde el tiempo y el espacio se detienen.  Al caminar entre sus senderos, escuchando el susurro del viento y el canto lejano de los cóndores, sentí que estaba tocando la historia viva de los incas, y que su sabiduría y conexión con la naturaleza todavía flotaba en el aire, envolviéndome y llenando mi corazón de asombro.",
+    title: "MParque Nacional Talampaya (Perú)",
+    text: "Cañones rojos gigantes y paisajes tipo película. Cañones rojizos y paisajes impactantes declarados Patrimonio Mundial.",
     image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483545/9_sss3rq.jpg",
     recomendaciones: [
-        "Reservar con meses de anticipación",
-        "Aclimatarse en Cusco para evitar mal de altura",
-        "Hidratarse constantemente",
+        "Sombrero y mucho agua.",
+        "Las excursiones guiadas son la mejor forma de recorrerlo.",
+        "Al atardecer los colores se ven espectaculares.",
+        "Ideal para fotos panorámicas.",
     
       ],
     
       mejorEpoca: "Mayo a septiembre (temporada seca)"},
   {
     id: 4,
-    title: "Petra (Jordania)",
-    text: "Mi cuarta maravilla también la visite en el 2018 ,  fue un encuentro con la magia. Un tesoro talado en la roca por los nabateos. Sentí  mucho asombro y no lo podía creer lo que mis ojos veían. Cada detalle de las fachadas me hablaba de ingenio, misterio y belleza imposible de olvidar.",
+    title: "Salinas Grandes (Jujuy)",
+    text: "Un inmenso desierto blanco perfecto para fotos espectaculares.",
     image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483335/mejora_la_calidad_de_esta_202604291421_1_sjpbqx.jpg",
     recomendaciones: [
-        "Llevar efectivo",
-        "Ir temprano o al atardecer",
-        "Considerar visita nocturna",
+        "Lentes de sol obligatorios.",
+        "Fotos creativas con perspectiva.",
+        "Mejor ir en días secos.",
        
       ],
     
       mejorEpoca: "Marzo a mayo y septiembre a noviembre (Clima templado, sin calor extremo)"},
   {
     id: 5,
-    title: "Taj Mahal (India)",
-    text: "Mi quinta maravilla la visite en el 2022 que me dejó sin aliento. Su mármol blanco reflejaba la luz como un suspiro eterno. Lloré y me emocioné; sentí internamente que estaba frente a la expresión más pura del amor humano, un sentimiento tan poderoso que podía trascender el tiempo y permanecer inmortal en piedra. Cada detalle, cada curva, cada reflejo en el agua parecía susurrarme la historia de devoción y pérdida que lo inspiró, y por un instante comprendí que la belleza verdadera no solo se ve, sino que se siente en lo más profundo del corazón.",
+    title: "Bañado La Estrella (Formosa)",
+    text: "Es uno de los humedales más sorprendentes de Argentina y uno de los más grandes del país.Es un paisaje cambiante, donde el agua, los pastizales y la fauna crean un escenario único en cada estación.",
     image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483590/22685_s0blke.jpg",
     recomendaciones: [
-        "Ir al amanecer",
-        "Evitar temporada de calor extremo",
-        "Respetar normas de ingreso",
+        "Hacer excursiones en canoa o bote para recorrerlo.",
+        "Quédate en silencio un rato para escuchar.",
+        "Llevar repelente, agua y protección solar.",
+        "Ir con guía local para conocer los mejores puntos.",
         
       ],
     
-      mejorEpoca: "Noviembre a febrero (Clima fresco y seco, evitando el calor extremo y la humedad del verano)"},
+      mejorEpoca: "entre abril y octubre (cuando hay más agua y fauna visible) "},
   {
     id: 6,
-    title: "Coliseo Romano (Italia)",
-    text: "Visite mi sexta maravilla en 2023 ,testigo de historias de gladiadores y multitudes, me envolvió en su historia. Caminar por sus arcos y pasadizos me hizo sentir parte de un relato épico, un puente entre mi presente y la Roma antigua. Fue asombro estar allí.",
+    title: "Lago Nahuel Huapi (Bariloche)",
+    text: "El Lago Nahuel Huapi es uno de los paisajes más icónicos de la Patagonia. Es famoso por sus aguas azul profundo, montañas nevadas y bosques infinitos ",
     image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483403/mejora_la_calidad_de_esta_202604291423_wc7ewc.jpg",
     recomendaciones: [
-        "Comprar entradas online",
-        "Evitar horarios pico",
-        "Hacer visita guiada para mayor contexto",
+        "Senderismo en verano /  esquí en invierno .",
+        "Clima cambiante: vestite en capas.",
+        "Hacé navegación por el lago Nahuel Huapi.",
       
       ],
     
       mejorEpoca: "Abril-junio y septiembre-octubre (temperaturas agradables y menos turistas que en julio-agosto)"},
   {
     id: 7,
-    title: "Gran Muralla China (China)",
-    text: "Mi última maravilla 2024 , no lo podía creer , desde lo alto de sus sinuosos caminos de piedra, comprendí por qué dicen que es visible desde el cielo. Cada ladrillo parecía susurrar historias de guerreros y emperadores, y el viento traía consigo ecos de siglos pasados. Sentí que caminaba por un hilo que une tiempo y esfuerzo humano, y la inmensidad me dejó sin aliento",
+    title: "Campo de Piedra Pómez (Catamarca)",
+    text: "Es lugar impresionante un desierto blanco surrealista de roca volcánica erosionada.",
     image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457172/Rectangle_7_cn7a63.png",
     recomendaciones: [
-        "Usar calzado cómodo (muchas subidas)",
-        "Evitar feriados chinos",
-        "Elegir sectores menos turísticos",
+        "Lleva agua extra.",
+        "Protector solar obligatorio",
+        "Ideal ir en 4x4 o tour guiado ",
         
       ],
     
@@ -129,11 +132,12 @@ export default function SevenWonders() {
             <div className="bg-white rounded-3xl shadow-md px-6 sm:px-8 py-8 mt-5 text-center">
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
               Mis ojos frente a las 
-                <span className="block text-[#2E73F2]">Maravillas del Mundo </span>
+                <span className="block text-[#2E73F2]">7 Maravillas Naturales de Argentina
+                </span>
               </h1>
               <p className="mt-5 text-sm sm:text-base text-gray-600 leading-relaxed">
-              Vengo de un pueblito tranquilo, donde la vida transcurre despacio y los sueños parecen lejanos. Pero un día, mi corazón aventurero,la curiosidad y el ansia de descubrir me llevaron a un viaje que cambiaría mi manera de ver el mundo: conocer las siete maravillas del mundo moderno ( elegidas en 2007 mediante una votación global organizada por la Fundación New7Wonders)
-              Todo comenzó en 2017, cuando visité mi primera maravilla . Ahí entendí que viajar no es solo conocer lugares, sino conectar con la historia, la cultura y momentos que te cambian para siempre
+              Mi País tiene la  mayor diversidad natural del mundo. Desde glaciares eternos hasta selvas subtropicales, pasando por desiertos rojizos y humedales infinitos, ofrece paisajes únicos que sorprenden a viajeros de todo el planeta.
+              En 2019, se realizó una votación nacional para elegir las 7 Maravillas Naturales de Argentina,  a continuación  te muestro los lugares más impactantes del país.
               </p>
             </div>
           </section>

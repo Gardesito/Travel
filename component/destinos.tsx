@@ -7,25 +7,28 @@ export default function Destinos() {
   const destinos = [
     {
       id: 1,
-      nombre: "Humahuaca - Carnaval",
-      ubicacion: "Jujuy",
+      nombre: " Las maravillas de Cordoba",
+      ubicacion: "Cordoba",
       imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1772218752/Sin_t%C3%ADtuloXV-1_oi4om5.jpg",
-      descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer."
+      descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
+      link: "/maravillascordoba",
     },
     {
       id: 2,
-      nombre: "Guayaquil",
-      ubicacion: "Ecuador",
-      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1772218777/Sin_t%C3%ADtulo-1y_egz5i1.png",
-      descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer."
+      nombre: "Las Maravillas del Mundo",
+      ubicacion: "Mundo",
+      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1769712429/Firefly_Gemini_Flash_12_j4pb7h.png",
+      descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
+      link: "/7maravillas",
     },
     {
       id: 3,
-      nombre: "Taj Mahal",
-      ubicacion: "India",
-      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483590/22685_s0blke.jpg",
-      descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer."
-    }
+      nombre: "Las Maravillas de Argentina",
+      ubicacion: "Argentina",
+      imagen: "https://res.cloudinary.com/dtmziqubb/image/upload/v1778253258/Combination_of_Argentina_places_202605081214_z0lrye.jpg",
+      descripcion: "Vivi lo mejor de las fiestas, y el mejor carnaval en jujuy y en ningun otro lugar para poder despejarte y volver a nacer.",
+      link: "/maravillasargentina",
+    },
   ];
 
   return (
@@ -35,7 +38,7 @@ export default function Destinos() {
           {/* Título - "Mi top" negro, "Destinos" azul */}
           <div className="text-center mb-8 md:mb-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
-              Mi top <span style={{ color: "#2E73F2" }}>Destinos</span>
+              Mi top <span style={{ color: "#2E73F2" }}>Maravillas</span>
             </h2>
             <p className="text-gray-500 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
               Sumate a viajes grupales cuidadosamente planificados, con salidas acompañadas, itinerarios equilibrados y todo organizado para que solo te dediques a disfrutar.
@@ -49,10 +52,12 @@ export default function Destinos() {
                 key={destino.id}
                 className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 flex flex-col"
               >
-                {/* Imagen con esquinas redondeadas, aspect 4:3 */}
-                <div
-                  className="w-full aspect-[4/3] bg-cover bg-center rounded-t-2xl transition-transform duration-300 group-hover:scale-105"
+                {/* Imagen: clic navega a la página del destino */}
+                <Link
+                  href={destino.link}
+                  className="block w-full aspect-[4/3] bg-cover bg-center rounded-t-2xl transition-transform duration-300 group-hover:scale-105 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2E73F2]"
                   style={{ backgroundImage: `url("${destino.imagen}")` }}
+                  aria-label={`Ver ${destino.nombre}`}
                 />
                 {/* Contenido */}
                 <div className="p-5 md:p-6 flex flex-col flex-1 space-y-4">
@@ -83,7 +88,7 @@ export default function Destinos() {
           </div>
 
           {/* Botón Ver todos */}
-          <div className="text-center mt-12 md:mt-16">
+          {/* <div className="text-center mt-12 md:mt-16">
             <Link
               href="/blog1"
               className="inline-block px-10 py-4 rounded-xl text-white font-semibold transition-all duration-300 hover:opacity-90"
@@ -91,7 +96,7 @@ export default function Destinos() {
             >
               Ver todos
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </ScrollReveal>
