@@ -1,9 +1,32 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
+
+type BlogSubitem = { name: string; href: string };
+
+type NavLinkItem =
+  | {
+      name: string;
+      href: string;
+      icon: string;
+      highlight?: boolean;
+      target?: string;
+    }
+  | {
+      name: string;
+      icon: string;
+      highlight?: boolean;
+      dropdown: BlogSubitem[];
+    };
+
+function isDropdownNavLink(link: NavLinkItem): link is Extract<NavLinkItem, { dropdown: BlogSubitem[] }> {
+  return "dropdown" in link;
+}
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [mobileBlogOpen, setMobileBlogOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -15,11 +38,23 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = [
+  useEffect(() => {
+    if (!menuOpen) setMobileBlogOpen(false);
+  }, [menuOpen]);
+
+  const navLinks: NavLinkItem[] = [
     { name: "Sobre mí", href: "#sobremi", icon: "person", highlight: true },
     { name: "Diseños de Viajes", href: "#destinos", icon: "document" },
-    { name: "Donaciones", href: "https://cafecito.app/almaviajeravane", target:"_blank", icon: "info" },
-    { name: "Blog", href: "https://cafecito.app/alma-viajera", target: "_blank", icon: "blog" },
+    { name: "Donaciones", href: "https://cafecito.app/almaviajeravane", target: "_blank", icon: "info" },
+    {
+      name: "Blog",
+      icon: "blog",
+      dropdown: [
+        { name: "Maravillas del mundo", href: "/7maravillas" },
+        { name: "Maravillas de Argentina", href: "/maravillasargentina" },
+        { name: "Maravillas de Córdoba", href: "/maravillascordoba" },
+      ],
+    },
     { name: "Tienda", href: "#tienda", icon: "shop" },
     { name: "Contacto", href: "#contact", icon: "contact" },
   ];
@@ -124,8 +159,47 @@ export default function Navbar() {
 
           {/* Links desktop */}
           <div className="hidden lg:flex items-center justify-center gap-4 flex-1">
-            {navLinks.map((link) => (
-              link.highlight ? (
+            {navLinks.map((link) =>
+              isDropdownNavLink(link) ? (
+                <div key={link.name} className="relative group">
+                  <button
+                    type="button"
+                    className={`flex items-center gap-2 rounded-full px-4 py-2 border-2 border-transparent transition-all font-medium text-sm ${textColor} hover:bg-white hover:border-[#60A5FA] hover:text-[#3B82F6] cursor-pointer`}
+                    aria-haspopup="menu"
+                  >
+                    <Icon type={link.icon} />
+                    <span>{link.name}</span>
+                    <svg
+                      className="w-4 h-4 opacity-80 transition-transform duration-200 group-hover:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  {/* Panel: ligero solapamiento para mantener el hover al bajar al menú */}
+                  <div
+                    className="absolute left-0 top-full z-[60] pt-0 -mt-1 min-w-[240px] opacity-0 invisible pointer-events-none translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:visible group-focus-within:pointer-events-auto group-focus-within:translate-y-0 transition-all duration-200"
+                    role="menu"
+                    aria-label={`Submenú ${link.name}`}
+                  >
+                    <div className="rounded-xl bg-white shadow-xl border border-gray-100 py-2 mt-1">
+                      {link.dropdown.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="block px-4 py-2.5 text-sm text-gray-800 hover:bg-[#EFF6FF] hover:text-[#1C3893] transition-colors"
+                          role="menuitem"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ) : link.highlight ? (
                 <a
                   key={link.name}
                   href={link.href}
@@ -139,13 +213,15 @@ export default function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
+                  target={link.target}
+                  rel={link.target === "_blank" ? "noopener noreferrer" : undefined}
                   className={`flex items-center gap-2 rounded-full px-4 py-2 border-2 border-transparent transition-all font-medium text-sm ${textColor} hover:bg-white hover:border-[#60A5FA] hover:text-[#3B82F6]`}
                 >
                   <Icon type={link.icon} />
                   <span>{link.name}</span>
                 </a>
               )
-            ))}
+            )}
           </div>
 
           {/* Botón menú móvil */}
@@ -174,8 +250,46 @@ export default function Navbar() {
           style={isTransparent ? { backgroundColor: "rgba(28, 56, 147, 0.98)" } : bgStyle}
         >
           <div className="max-w-7xl mx-auto px-4 flex flex-col gap-2">
-            {navLinks.map((link) => (
-              link.highlight ? (
+            {navLinks.map((link) =>
+              isDropdownNavLink(link) ? (
+                <div key={link.name} className="flex flex-col gap-1">
+                  <button
+                    type="button"
+                    onClick={() => setMobileBlogOpen((o) => !o)}
+                    className={`flex items-center gap-2 rounded-full px-4 py-3 border-2 border-transparent transition-all font-medium w-full max-w-sm text-left hover:bg-white hover:border-[#60A5FA] hover:text-[#3B82F6] ${textColor}`}
+                    aria-expanded={mobileBlogOpen}
+                  >
+                    <Icon type={link.icon} />
+                    <span className="flex-1">{link.name}</span>
+                    <svg
+                      className={`w-5 h-5 transition-transform ${mobileBlogOpen ? "rotate-180" : ""}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  {mobileBlogOpen && (
+                    <div className="ml-4 pl-3 border-l-2 border-white/30 flex flex-col gap-1">
+                      {link.dropdown.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          onClick={() => {
+                            setMenuOpen(false);
+                            setMobileBlogOpen(false);
+                          }}
+                          className="text-white/95 text-sm py-2 hover:text-white hover:underline"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : link.highlight ? (
                 <a
                   key={link.name}
                   href={link.href}
@@ -190,6 +304,8 @@ export default function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
+                  target={link.target}
+                  rel={link.target === "_blank" ? "noopener noreferrer" : undefined}
                   onClick={() => setMenuOpen(false)}
                   className={`flex items-center gap-2 rounded-full px-4 py-3 border-2 border-transparent transition-all font-medium w-fit hover:bg-white hover:border-[#60A5FA] hover:text-[#3B82F6] ${textColor}`}
                 >
@@ -197,7 +313,7 @@ export default function Navbar() {
                   <span>{link.name}</span>
                 </a>
               )
-            ))}
+            )}
             <div className="mt-2 pt-2 border-t border-white/20">
               <p className="text-white/80 text-sm">+542975179462</p>
               <p className="text-white/80 text-sm">Lunes a Viernes 10:00 - 18:00</p>
