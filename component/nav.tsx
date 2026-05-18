@@ -44,7 +44,7 @@ export default function Navbar() {
 
   const navLinks: NavLinkItem[] = [
     { name: "Sobre mí", href: "#sobremi", icon: "person", highlight: true },
-    { name: "Diseños de Viajes", href: "#destinos", icon: "document" },
+    { name: "Diseños de Viajes", href: "https://wa.me/+5493512435151", icon: "document" },
     { name: "Donaciones", href: "https://cafecito.app/almaviajeravane", target: "_blank", icon: "info" },
     {
       name: "Blog",
@@ -56,7 +56,7 @@ export default function Navbar() {
       ],
     },
     { name: "Tienda", href: "#tienda", icon: "shop" },
-    { name: "Contacto", href: "#contact", icon: "contact" },
+    { name: "Contacto", href: "https://www.instagram.com/vane_almaviajera/", icon: "contact" },
   ];
 
   const Icon = ({ type }: { type: string }) => {

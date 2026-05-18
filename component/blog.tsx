@@ -21,7 +21,7 @@ const posts = [
     titulo: "América",
     ubicacion: "Continente",
     imagen:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219101/Sin_t%C3%ADtulo-1VX_tgercw.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779119277/689d9496ba4fc404e3dc7ac307ac2e36_rzgwiz.jpg",
     descripcion:
       "Lugares que conocí, historias que me cambiaron y momentos que se quedaron para siempre en este continente.",
     link: "/america",
@@ -31,7 +31,7 @@ const posts = [
     titulo: "Europa",
     ubicacion: "Continente",
     imagen:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219093/vaneeee5_fkceqw.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779119306/3730612d0f1d12dca4942f59522e4a0d_vi52zi.jpg",
     descripcion:
       "Calles con historia, culturas que se entrelazan y atardeceres que parecen sacados de un cuento.",
     link: "/europa",
@@ -41,7 +41,7 @@ const posts = [
     titulo: "Asia",
     ubicacion: "Continente",
     imagen:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219267/Sin_t%C3%ADtulo-2ffff_jpw9jj.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779119330/3d8d32c65e5f3611f1da6ea2456cc623_qo0rc2.jpg",
     descripcion:
       "Templos antiguos, mercados llenos de vida y una energía que te invita a mirar el mundo de otra forma.",
     link: "/asia",

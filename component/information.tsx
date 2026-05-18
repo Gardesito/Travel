@@ -251,7 +251,7 @@ export function FeatureSection() {
 
               <div className="mt-8 sm:mt-10">
                 <Link
-                  href="#contact"
+                  href="https://wa.me/+5493512435151"
                   className="inline-flex items-center gap-2.5 px-8 sm:px-10 py-3.5 rounded-full border-2 font-semibold text-xs sm:text-sm tracking-[0.14em] uppercase transition-all duration-300 hover:bg-[#5D87FF]/5 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                   style={{ borderColor: ACCENT, color: ACCENT }}
                 >

@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 const HERO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457180/Sin_t%C3%ADtuaaaaalo-1_l4btvj.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1779118942/2534_qbldbp.jpg";
 
 const NAVY = "#1A2B4C";
 const ACCENT = "#5D87FF";
@@ -21,7 +21,7 @@ const ACCENT = "#5D87FF";
 const destinations = [
   {
     id: "01",
-    country: "BRASIL",
+    country: "Italia",
     city: "Recife",
     description:
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
@@ -31,8 +31,8 @@ const destinations = [
   },
   {
     id: "02",
-    country: "CANADÁ",
-    city: "Banff",
+    country: "Francia",
+    city: "Paris",
     description:
       "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
     image:
@@ -41,8 +41,8 @@ const destinations = [
   },
   {
     id: "03",
-    country: "PERÚ",
-    city: "Machu Picchu",
+    country: "España",
+    city: "Barcelona",
     description:
       "Ruinas entre las nubes, silencio sagrado y la huella de una civilización que aún late en cada piedra.",
     image:
