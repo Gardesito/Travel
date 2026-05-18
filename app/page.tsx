@@ -9,6 +9,7 @@ import Testimonios from "@/component/testimonios";
 import Information from "@/component/information";
 import Blog from "@/component/blog";
 
+
 export default function Home() {
   return (
     <div className="">
