@@ -28,7 +28,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           aria-label="Abrir conversación de WhatsApp"
           target="_blank"
           rel="noreferrer noopener"
-          className="fixed bottom-6 right-6 z-50 inline-flex items-center gap-2 rounded-full bg-green-500 px-4 py-3 text-white shadow-lg shadow-green-500/30 transition hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500 md:bottom-8 md:right-8"
+          className="fixed bottom-6 right-6 z-50 inline-flex items-center gap-2 rounded-full px-4 py-3 text-white shadow-lg transition hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 md:bottom-8 md:right-8"
+          style={{ backgroundColor: "#5D87FF", boxShadow: "0 10px 25px rgba(93, 135, 255, 0.35)" }}
         >
           <MessageCircle className="h-5 w-5" aria-hidden="true" />
           <span className="hidden sm:inline text-sm font-medium">WhatsApp</span>

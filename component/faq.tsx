@@ -305,6 +305,7 @@ export default function FAQ() {
   return (
     <ScrollReveal>
       <section
+        id="faq"
         className={`${playfair.variable} relative w-full overflow-hidden py-14 sm:py-16 md:py-20 lg:py-24`}
         style={{ backgroundColor: "#f9f9f9" }}
         aria-labelledby="faq-heading"
@@ -362,14 +363,14 @@ export default function FAQ() {
               </div>
 
               <div className="mt-8 sm:mt-10 flex justify-center lg:justify-start">
-                <Link
+              {/*   <Link
                   href="#contact"
                   className="inline-flex items-center gap-2.5 px-8 sm:px-10 py-3.5 rounded-full border-2 font-semibold text-xs sm:text-sm tracking-[0.16em] uppercase transition-all duration-300 hover:bg-[#5D87FF]/5 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-[#f9f9f9]"
                   style={{ borderColor: ACCENT, color: ACCENT }}
                 >
                   <Compass className="w-4 h-4" strokeWidth={2} />
                   Ver más preguntas
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

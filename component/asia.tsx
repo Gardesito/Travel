@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 const HERO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1779130330/1017_ybbho8.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457180/Sin_t%C3%ADtuaaaaalo-1_l4btvj.jpg";
 
 const NAVY = "#1A2B4C";
 const ACCENT = "#5D87FF";
@@ -21,22 +21,22 @@ const ACCENT = "#5D87FF";
 const destinations = [
   {
     id: "01",
-    country: "CHINA",
-    city: "Pekin",
+    country: "BRASIL",
+    city: "Recife",
     description:
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779130094/7922f17c13da4ca87bf634b2dc00f7ef_nqcsyt.jpg",
+      "https://images.unsplash.com/photo-1516026672322-bc52d61a55f5?w=800&q=80",
     href: "/brasil",
   },
   {
     id: "02",
-    country: "INDIA",
-    city: "Agra",
+    country: "CANADÁ",
+    city: "Banff",
     description:
       "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779130474/3ec390582cae08a811dba2159f983de5_pqan3s.jpg",
+      "https://images.unsplash.com/photo-1503614474694-610174c45d7a?w=800&q=80",
     href: "#",
   },
   {

@@ -21,32 +21,32 @@ const ACCENT = "#5D87FF";
 const destinations = [
   {
     id: "01",
-    country: "Italia",
-    city: "Roma",
+    country: "BRASIL",
+    city: "Recife",
     description:
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779119306/3730612d0f1d12dca4942f59522e4a0d_vi52zi.jpg",
+      "https://images.unsplash.com/photo-1516026672322-bc52d61a55f5?w=800&q=80",
     href: "/brasil",
   },
   {
     id: "02",
-    country: "Francia",
-    city: "Paris",
+    country: "CANADÁ",
+    city: "Banff",
     description:
       "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779129934/77ed6f806d9837ffec3d6c91ae209fdd_rhlpey.jpg",
+      "https://images.unsplash.com/photo-1503614474694-610174c45d7a?w=800&q=80",
     href: "#",
   },
   {
     id: "03",
-    country: "España",
-    city: "Barcelona",
+    country: "PERÚ",
+    city: "Machu Picchu",
     description:
       "Ruinas entre las nubes, silencio sagrado y la huella de una civilización que aún late en cada piedra.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779129986/0b8d081b72c2b5fe40fc27ad46927cd0_dt3945.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483545/9_sss3rq.jpg",
     href: "#",
   },
   {

@@ -22,7 +22,7 @@ const destinations = [
   {
     id: "01",
     country: "BRASIL",
-    city: "Río de Janeiro",
+    city: "Recife",
     description:
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
