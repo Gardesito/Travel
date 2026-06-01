@@ -301,7 +301,7 @@ export default function Footer() {
           <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
             <FourPointStar className="w-3 h-3 mx-auto mb-3" style={{ color: ACCENT }} />
             <p className="text-gray-500 text-xs sm:text-sm">
-              © {year} Vanesa Cordoba. Todos los derechos reservados.
+              © {year} Elias Solis. Todos los derechos reservados.
             </p>
           </div>
         </div>
