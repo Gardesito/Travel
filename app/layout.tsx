@@ -14,7 +14,10 @@ export const metadata: Metadata = {
   title: "Alma viajera",
   description: "Viajes de aventura y descubrimiento",
   icons: {
-    icon: "https://res.cloudinary.com/dtmziqubb/image/upload/v1774473466/imagen-avion-que-esta-fondo-azul_oc7v53.png",
+    icon: {
+      url: "/paper-plane.svg",
+      type: "image/svg+xml",
+    },
   },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
