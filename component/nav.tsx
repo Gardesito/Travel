@@ -121,7 +121,7 @@ export default function Navbar() {
       className={`${playfair.variable} fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? "shadow-md" : "bg-transparent"
       }`}
-      style={scrolled ? { backgroundColor: NAVY } : undefined}
+      style={scrolled ? { backgroundColor: ACCENT } : undefined}
     >
       {/* Barra superior — contacto */}
       <div
@@ -263,7 +263,7 @@ export default function Navbar() {
       {menuOpen && (
         <div
           className="lg:hidden border-t border-white/15 py-4 max-h-[80vh] overflow-y-auto"
-          style={{ backgroundColor: NAVY }}
+          style={{ backgroundColor: ACCENT }}
         >
           <div className="max-w-7xl mx-auto px-4 flex flex-col gap-1">
             {navLinks.map((link) =>
