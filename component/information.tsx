@@ -21,7 +21,7 @@ const NAVY = "#1A2B4C";
 const ACCENT = "#5D87FF";
 
 const MAIN_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219267/Sin_t%C3%ADtulo-2ffff_jpw9jj.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1772218777/Sin_t%C3%ADtulo-1y_egz5i1.png";
 
 const features = [
   {

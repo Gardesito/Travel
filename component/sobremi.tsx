@@ -17,7 +17,7 @@ const ACCENT = "#5D87FF";
 const BUTTON_BLUE = "#6B86E3";
 
 const MAIN_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1764895697/VANE_MIRAMAR_102_1_atpftm.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1783019857/mejora_la_calidad_202607021617_yc4rdl.jpg";
 
 const highlights = [
   { icon: Globe, label: "Explorar el mundo" },
