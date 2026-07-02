@@ -134,7 +134,7 @@ export default function Hero() {
               </p>
 
               <Link
-                href="#contact"
+                href="https://www.instagram.com/vane_almaviajera/"
                 className="inline-flex items-center gap-3 px-7 sm:px-9 py-3.5 rounded-full border-2 font-semibold text-xs sm:text-sm tracking-[0.14em] uppercase transition-all duration-300 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 backdrop-blur-sm"
                 style={{
                   borderColor: ACCENT,
