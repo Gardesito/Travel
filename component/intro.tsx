@@ -256,7 +256,8 @@ export const Intro = () => {
 
               <div className="mt-8 sm:mt-10">
                 <Link
-                  href="/#destinos"
+                  href="https://www.instagram.com/vane_almaviajera/"
+                  target="_blank"
                   className="inline-flex items-center gap-3 px-7 sm:px-9 py-3.5 rounded-full border-2 font-semibold text-xs sm:text-sm tracking-[0.14em] uppercase transition-all duration-300 hover:bg-[#5D87FF]/5 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-transparent"
                   style={{ borderColor: ACCENT, color: ACCENT }}
                 >
