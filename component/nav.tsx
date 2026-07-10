@@ -136,7 +136,7 @@ export default function Navbar() {
             style={topBarStyle}
           >
             <Phone className="w-3.5 h-3.5 flex-shrink-0" strokeWidth={2} />
-            <span>+54 9 351 719 4942</span>
+            <span>+5493512435151</span>
           </a>
           <a
             href="https://www.instagram.com/alma.viajera/"
