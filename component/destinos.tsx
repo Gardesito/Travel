@@ -29,7 +29,7 @@ const destinos = [
     nombre: "Las maravillas de Córdoba",
     ubicacion: "ARGENTINA",
     imagen:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1772218752/Sin_t%C3%ADtuloXV-1_oi4om5.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705561/632506d5-a02d-4c99-8f1b-05cce4e054ba.png",
     descripcion:
       "Sierras, ríos y pueblos con alma. Un recorrido por los rincones que más me enamoraron del corazón de Argentina.",
     link: "/maravillascordoba",
@@ -310,14 +310,14 @@ export default function Destinos() {
             />
 
             <div className="flex justify-center relative z-10 pt-2">
-              <Link
+         {/*      <Link
                 href="/blog1"
                 className="inline-flex items-center gap-2.5 sm:gap-3 px-8 sm:px-12 py-3.5 sm:py-4 rounded-full border-2 border-dashed font-semibold text-xs sm:text-sm tracking-[0.16em] uppercase transition-all duration-300 hover:bg-[#5D87FF]/5 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-[#f8f9fa]"
                 style={{ borderColor: ACCENT, color: ACCENT }}
               >
                 <Compass className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2} />
                 Ver más destinos
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

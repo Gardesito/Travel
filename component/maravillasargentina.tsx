@@ -2,12 +2,22 @@
 
 import Footer from "./footer";
 import ScrollReveal from "@/component/ScrollReveal";
+import { Playfair_Display } from "next/font/google";
+import { CalendarDays, Check } from "lucide-react";
+import { NAVY, ACCENT } from "@/lib/theme";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-playfair",
+});
 
 const HERO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1777396439/Sin_t%C3%ADtulo-1dasdsadasdas_fgdplv.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705752/25f984c3-9d7f-41c6-b98e-78a8e82afb0c.png";
 
 const INTRO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219101/Sin_t%C3%ADtulo-1VX_tgercw.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1765214628/2a284007-8467-40ed-9071-61cb020fc812_m6eyup.jpg";
 
 
 const wonders = [
@@ -15,7 +25,7 @@ const wonders = [
     id: 1,
     title: "Cataratas del Iguazú  (Misiones)",
     text: "Una de las cascadas más impresionantes del mundo. . Más de 270 saltos de agua rodeados de selva tropical. Es un lugar increíble ",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483290/mejora_la_calidad_de_esta_202604291421_tw41bs.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705752/25f984c3-9d7f-41c6-b98e-78a8e82afb0c.png",
     recomendaciones: [
         "Lleva piloto o ropa impermeable. ",
         "Ve temprano para evitar calor y más gente.",
@@ -28,7 +38,7 @@ const wonders = [
     id: 2,
     title: " Glaciar Perito Moreno (Santa Cruz)",
     text: "Un gigante de hielo famoso por sus impresionantes desprendimientos que te deja impactada.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483396/mejora_la_calidad_de_esta_202604291422_jtmzjz.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706093/0468ff5d-9e98-44f7-a0f0-a2d4292af4b0.png",
     recomendaciones: [
         "Abrigo en capas aunque haya sol.",
         "El  trekking sobre hielo es increíble.",
@@ -39,9 +49,9 @@ const wonders = [
       mejorEpoca: "Diciembre a marzo (verano en Brasil) o septiembre a noviembre (primavera)"},
   {
     id: 3,
-    title: "MParque Nacional Talampaya (Perú)",
+    title: "Parque Nacional Talampaya ",
     text: "Cañones rojos gigantes y paisajes tipo película. Cañones rojizos y paisajes impactantes declarados Patrimonio Mundial.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483545/9_sss3rq.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705809/a886d278-98da-46a3-86f0-a9caa4cb0d4e.png",
     recomendaciones: [
         "Sombrero y mucho agua.",
         "Las excursiones guiadas son la mejor forma de recorrerlo.",
@@ -55,7 +65,7 @@ const wonders = [
     id: 4,
     title: "Salinas Grandes (Jujuy)",
     text: "Un inmenso desierto blanco perfecto para fotos espectaculares.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483335/mejora_la_calidad_de_esta_202604291421_1_sjpbqx.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705883/2ce5034f-7d2c-4fca-8812-4c247c8825c0.png",
     recomendaciones: [
         "Lentes de sol obligatorios.",
         "Fotos creativas con perspectiva.",
@@ -68,7 +78,7 @@ const wonders = [
     id: 5,
     title: "Bañado La Estrella (Formosa)",
     text: "Es uno de los humedales más sorprendentes de Argentina y uno de los más grandes del país.Es un paisaje cambiante, donde el agua, los pastizales y la fauna crean un escenario único en cada estación.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483590/22685_s0blke.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705903/d9d5d902-d5df-46e0-b049-4c75de24a798.png",
     recomendaciones: [
         "Hacer excursiones en canoa o bote para recorrerlo.",
         "Quédate en silencio un rato para escuchar.",
@@ -82,7 +92,7 @@ const wonders = [
     id: 6,
     title: "Lago Nahuel Huapi (Bariloche)",
     text: "El Lago Nahuel Huapi es uno de los paisajes más icónicos de la Patagonia. Es famoso por sus aguas azul profundo, montañas nevadas y bosques infinitos ",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483403/mejora_la_calidad_de_esta_202604291423_wc7ewc.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705925/d0ed9a2d-c9f0-4fb2-aba7-ad8164842b07.png",
     recomendaciones: [
         "Senderismo en verano /  esquí en invierno .",
         "Clima cambiante: vestite en capas.",
@@ -95,7 +105,7 @@ const wonders = [
     id: 7,
     title: "Campo de Piedra Pómez (Catamarca)",
     text: "Es lugar impresionante un desierto blanco surrealista de roca volcánica erosionada.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457172/Rectangle_7_cn7a63.png",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705945/ef374dd1-d214-45ac-8e28-d0006c2af262.png",
     recomendaciones: [
         "Lleva agua extra.",
         "Protector solar obligatorio",
@@ -107,21 +117,29 @@ const wonders = [
 },
 ];
 
+function FourPointStar({ className = "" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2z" />
+    </svg>
+  );
+}
+
 export default function SevenWonders() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className={`${playfair.variable} min-h-screen bg-[#f8f9fa]`}>
       <ScrollReveal>
         <article className="w-full">
           <section className="relative w-full" aria-label="Portada siete maravillas">
             <div
-              className="w-full min-h-[40vh] sm:min-h-[50vh] md:min-h-[58vh] bg-cover bg-center"
+              className="w-full min-h-[38vh] sm:min-h-[45vh] md:min-h-[52vh] lg:min-h-[58vh] bg-cover bg-center"
               style={{ backgroundImage: `url("${HERO_IMAGE}")` }}
             />
-            <div className="absolute inset-0 bg-black/20" />
+            <div className="absolute inset-0 bg-black/25" />
           </section>
 
-          <section className="relative max-w-3xl mx-auto px-5 sm:px-8 -mt-16 sm:-mt-20 md:-mt-24 z-10">
-            <div className="mx-auto w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
+          <section className="relative max-w-3xl mx-auto px-4 sm:px-6 md:px-8 -mt-14 sm:-mt-16 md:-mt-20 z-10">
+            <div className="mx-auto w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <div
                 className="w-full h-full bg-cover bg-center"
                 style={{ backgroundImage: `url("${INTRO_IMAGE}")` }}
@@ -129,64 +147,71 @@ export default function SevenWonders() {
                 aria-label="Foto de viajera"
               />
             </div>
-            <div className="bg-white rounded-3xl shadow-md px-6 sm:px-8 py-8 mt-5 text-center">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
+            <div className="bg-white rounded-2xl sm:rounded-3xl shadow-[0_8px_40px_rgba(26,43,76,0.1)] px-5 sm:px-8 py-7 sm:py-8 mt-4 sm:mt-5 text-center">
+              <FourPointStar className="w-2.5 h-2.5 mx-auto mb-3 text-[#5D87FF]" />
+              <h1 className={`${playfair.className} font-semibold leading-tight`} style={{ color: NAVY, fontSize: "clamp(1.75rem, 4.5vw, 2.75rem)" }}>
               Mis ojos frente a las 
-                <span className="block text-[#2E73F2]">7 Maravillas Naturales de Argentina
+                <span className="block italic font-normal" style={{ color: ACCENT }}>7 Maravillas Naturales de Argentina
                 </span>
               </h1>
-              <p className="mt-5 text-sm sm:text-base text-gray-600 leading-relaxed">
+              <FourPointStar className="w-3 h-3 mx-auto my-4 text-[#5D87FF]" />
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
               Mi País tiene la  mayor diversidad natural del mundo. Desde glaciares eternos hasta selvas subtropicales, pasando por desiertos rojizos y humedales infinitos, ofrece paisajes únicos que sorprenden a viajeros de todo el planeta.
               En 2019, se realizó una votación nacional para elegir las 7 Maravillas Naturales de Argentina,  a continuación  te muestro los lugares más impactantes del país.
               </p>
             </div>
           </section>
 
-          <section className="max-w-5xl mx-auto px-5 sm:px-8 py-12 sm:py-16 space-y-10 sm:space-y-12 md:space-y-14">
+          <section className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-10 sm:py-14 md:py-16 space-y-6 sm:space-y-8">
             {wonders.map((wonder) => (
               <div
                 key={wonder.id}
-                className="overflow-hidden rounded-2xl sm:rounded-3xl border border-gray-100 shadow-sm"
+                className="group overflow-hidden rounded-2xl sm:rounded-3xl border border-gray-100 bg-white shadow-[0_4px_24px_rgba(26,43,76,0.07)] hover:shadow-[0_8px_32px_rgba(26,43,76,0.12)] transition-shadow duration-300"
               >
                 <div
-                  className="w-full aspect-[16/9] sm:aspect-[21/9] bg-cover bg-center"
+                  className="w-full aspect-[16/9] sm:aspect-[21/9] bg-cover bg-center transition-transform duration-700 group-hover:scale-[1.02]"
                   style={{ backgroundImage: `url("${wonder.image}")` }}
                   role="img"
                   aria-label={wonder.title}
                 />
-                <div className="px-5 sm:px-7 md:px-8 py-6 sm:py-7 md:py-8 bg-white">
-                  <p className="text-xs sm:text-sm font-semibold tracking-wide uppercase text-[#2E73F2] mb-2">
+                <div className="relative px-5 sm:px-7 md:px-8 py-6 sm:py-7 md:py-8 bg-white">
+                  <p className="text-[10px] sm:text-xs font-semibold tracking-[0.2em] uppercase mb-2" style={{ color: ACCENT }}>
                     Maravilla {wonder.id}
                   </p>
-                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+                  <h2 className={`${playfair.className} text-xl sm:text-2xl md:text-3xl font-semibold leading-tight`} style={{ color: NAVY }}>
                     {wonder.title}
                   </h2>
                   <p className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
                     {wonder.text}
                   </p>
                   {wonder.recomendaciones && (
-  <div className="mt-4">
-    <h4 className="font-semibold text-gray-900">Recomendaciones:</h4>
-    <ul className="list-disc list-inside text-sm text-gray-700 mt-2 space-y-1">
+  <div className="mt-6 pt-5 border-t border-gray-100">
+    <h4 className="text-xs font-semibold tracking-[0.14em] uppercase" style={{ color: NAVY }}>Recomendaciones:</h4>
+    <ul className="text-sm text-gray-600 mt-3 space-y-2.5">
       {wonder.recomendaciones.map((rec, i) => (
-        <li key={i}>{rec}</li>
+        <li key={i} className="flex items-start gap-2.5">
+          <Check className="w-4 h-4 mt-0.5 shrink-0" style={{ color: ACCENT }} strokeWidth={2} />
+          <span>{rec}</span>
+        </li>
       ))}
     </ul>
   </div>
 )}
 
 {wonder.mejorEpoca && (
-  <p className="mt-3 text-sm text-gray-700">
-    <strong>Mejor época:</strong> {wonder.mejorEpoca}
-  </p>
+  <div className="mt-5 flex items-start gap-3 rounded-xl bg-[#f8f9fa] px-4 py-3 text-sm text-gray-600">
+    <CalendarDays className="w-4 h-4 mt-0.5 shrink-0" style={{ color: ACCENT }} strokeWidth={1.8} />
+    <p><strong style={{ color: NAVY }}>Mejor época:</strong> {wonder.mejorEpoca}</p>
+  </div>
 )}
                 </div>
               </div>
             ))}
           </section>
 
-          <section className="max-w-3xl mx-auto px-5 sm:px-8 pb-14 sm:pb-20 text-center">
-            <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+          <section className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 pb-14 sm:pb-20 text-center">
+            <FourPointStar className="w-4 h-4 mx-auto mb-5 text-[#5D87FF]" />
+            <p className={`${playfair.className} text-base sm:text-lg text-gray-600 leading-relaxed italic`}>
               Este recorrido me recuerda siempre que los suenos se construyen paso a paso.
               Viajar cambia la mirada, abre la mente y deja recuerdos para toda la vida.
             </p>

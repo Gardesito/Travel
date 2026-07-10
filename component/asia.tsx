@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 const HERO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457180/Sin_t%C3%ADtuaaaaalo-1_l4btvj.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706675/Mejora_imagen_sin_modificar_cara_202607081609_mr0aca.jpg";
 
 const NAVY = "#1A2B4C";
 const ACCENT = "#5D87FF";
@@ -21,25 +21,25 @@ const ACCENT = "#5D87FF";
 const destinations = [
   {
     id: "01",
-    country: "BRASIL",
-    city: "Recife",
+    country: "ASIA",
+    city: "CHINA",
     description:
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
-      "https://images.unsplash.com/photo-1516026672322-bc52d61a55f5?w=800&q=80",
-    href: "/brasil",
-  },
-  {
-    id: "02",
-    country: "CANADÁ",
-    city: "Banff",
-    description:
-      "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
-    image:
-      "https://images.unsplash.com/photo-1503614474694-610174c45d7a?w=800&q=80",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779130092/7922f17c13da4ca87bf634b2dc00f7ef_ktfxmv.jpg",
     href: "#",
   },
   {
+    id: "02",
+    country: "ASIA",
+    city: "INDIA",
+    description:
+      "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
+    image:
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706743/Mejora_imagen_sin_modificar_cara_202607081613_2_fz6smk.jpg",
+    href: "#",
+  },
+  /* {
     id: "03",
     country: "PERÚ",
     city: "Machu Picchu",
@@ -58,7 +58,7 @@ const destinations = [
     image:
       "https://images.unsplash.com/photo-1518638150340-f706c15f1e6f?w=800&q=80",
     href: "#",
-  },
+  }, */
 ];
 
 function FourPointStar({

@@ -21,38 +21,38 @@ const ACCENT = "#5D87FF";
 const destinations = [
   {
     id: "01",
-    country: "BRASIL",
-    city: "Recife",
+    country: "AMERICA",
+    city: "BRASIL",
     description:
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
       "https://res.cloudinary.com/dtmziqubb/image/upload/v1779112033/e6f613d4370c37b33e714843fab63e1a_mlnstc.jpg",
-    href: "/brasil",
-  },
-  {
-    id: "02",
-    country: "CANADÁ",
-    city: "Banff",
-    description:
-      "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
-    image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779112051/d4e911d667da8003bd5d289145979ea6_hdt9el.jpg",
     href: "#",
   },
   {
-    id: "03",
-    country: "PERÚ",
-    city: "Machu Picchu",
+    id: "02",
+    country: "AMERICA",
+    city: "PERU",
     description:
-      "Ruinas entre las nubes, silencio sagrado y la huella de una civilización que aún late en cada piedra.",
+      "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
     image:
       "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483545/9_sss3rq.jpg",
     href: "#",
   },
   {
+    id: "03",
+    country: "AMERICA",
+    city: "GUATEMALA",
+    description:
+      "Ruinas entre las nubes, silencio sagrado y la huella de una civilización que aún late en cada piedra.",
+    image:
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779112051/d4e911d667da8003bd5d289145979ea6_hdt9el.jpg",
+    href: "#",
+  },
+  {
     id: "04",
-    country: "MÉXICO",
-    city: "Tulum",
+    country: "AMERICA",
+    city: "MEXICO",
     description:
       "Ruinas mayas frente al Caribe. Historia antigua y aguas cristalinas en un solo horizonte inolvidable.",
     image:

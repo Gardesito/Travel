@@ -32,7 +32,7 @@ const galleryImages = [
     alt: "Viaje por Córdoba",
   },
   {
-    src: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783022205/VANE_LA_POSTA_245_yqsy0k.jpg",
+    src: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783539017/a4db2d21-ed5d-420e-a3b7-05b6f728a355.png",
     alt: "Paisaje de montaña",
   },
   {

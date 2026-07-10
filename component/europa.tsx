@@ -21,35 +21,35 @@ const ACCENT = "#5D87FF";
 const destinations = [
   {
     id: "01",
-    country: "BRASIL",
-    city: "Recife",
+    country: "EUROPA",
+    city: "ESPAÑA",
     description:
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
-      "https://images.unsplash.com/photo-1516026672322-bc52d61a55f5?w=800&q=80",
-    href: "/brasil",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706430/93579125-be14-4c4f-94a5-3bddc1f8d461.png",
+    href: "#",
   },
   {
     id: "02",
-    country: "CANADÁ",
-    city: "Banff",
+    country: "EUROPA",
+    city: "FRANCIA",
     description:
       "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
     image:
-      "https://images.unsplash.com/photo-1503614474694-610174c45d7a?w=800&q=80",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706454/bbd3e7d0-1044-4c17-9e70-4d1b425b0f9d.png",
     href: "#",
   },
   {
     id: "03",
-    country: "PERÚ",
-    city: "Machu Picchu",
+    country: "EUROPA",
+    city: "ITALIA",
     description:
       "Ruinas entre las nubes, silencio sagrado y la huella de una civilización que aún late en cada piedra.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483545/9_sss3rq.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706515/415440f9-0f9c-48cb-9488-a2061700f8c6.png",
     href: "#",
   },
-  {
+ /*  {
     id: "04",
     country: "MÉXICO",
     city: "Tulum",
@@ -58,7 +58,7 @@ const destinations = [
     image:
       "https://images.unsplash.com/photo-1518638150340-f706c15f1e6f?w=800&q=80",
     href: "#",
-  },
+  }, */
 ];
 
 function FourPointStar({

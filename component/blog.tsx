@@ -280,14 +280,14 @@ export default function Blog() {
             />
 
             <div className="flex justify-center relative z-10 pt-4">
-              <Link
+              {/* <Link
                 href="/blog1"
                 className="inline-flex items-center gap-2.5 sm:gap-3 px-8 sm:px-12 py-3.5 sm:py-4 rounded-full border-2 font-semibold text-xs sm:text-sm tracking-[0.18em] uppercase transition-all duration-300 hover:bg-[#5D87FF]/5 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-[#f8f9fa]"
                 style={{ borderColor: ACCENT, color: ACCENT }}
               >
                 <Compass className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2} />
                 Ver todos los posts
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
