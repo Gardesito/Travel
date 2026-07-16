@@ -27,7 +27,7 @@ const destinations = [
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
       "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706430/93579125-be14-4c4f-94a5-3bddc1f8d461.png",
-    href: "#",
+    href: "/espana",
   },
   {
     id: "02",
@@ -37,7 +37,7 @@ const destinations = [
       "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
     image:
       "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706454/bbd3e7d0-1044-4c17-9e70-4d1b425b0f9d.png",
-    href: "#",
+    href: "/francia",
   },
   {
     id: "03",
@@ -47,7 +47,7 @@ const destinations = [
       "Ruinas entre las nubes, silencio sagrado y la huella de una civilización que aún late en cada piedra.",
     image:
       "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706515/415440f9-0f9c-48cb-9488-a2061700f8c6.png",
-    href: "#",
+    href: "/italia",
   },
  /*  {
     id: "04",

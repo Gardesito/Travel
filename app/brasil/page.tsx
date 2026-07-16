@@ -1,5 +1,5 @@
-import BrasilBlog from "@/component/brasilblog";
+import Brasil from "@/component/brasil";
 
 export default function BrasilPage() {
-  return <BrasilBlog />;
+  return <Brasil />;
 }

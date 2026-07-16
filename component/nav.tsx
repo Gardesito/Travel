@@ -139,14 +139,15 @@ export default function Navbar() {
             <span>+5493512435151</span>
           </a>
           <a
-            href="https://www.instagram.com/alma.viajera/"
+            href="https://www.instagram.com/vane_almaviajera/"
             target="_blank"
             rel="noopener noreferrer"
             className={`flex items-center gap-1.5 hover:opacity-80 transition-opacity ${topBarColor}`}
             style={topBarStyle}
           >
             <Instagram className="w-3.5 h-3.5 flex-shrink-0" strokeWidth={2} />
-            <span>@alma.viajera</span>
+            <span>@vane_almaviajera
+            </span>
           </a>
           <span
             className={`flex items-center gap-1.5 ${topBarColor}`}
@@ -329,13 +330,13 @@ export default function Navbar() {
                 +54 9 351 719 4942
               </a>
               <a
-                href="https://www.instagram.com/alma.viajera/"
+                href="https://www.instagram.com/vane_almaviajera/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-white"
               >
                 <Instagram className="w-3.5 h-3.5" />
-                @alma.viajera
+                @vane_almaviajera
               </a>
               <p className="flex items-center gap-2">
                 <Clock className="w-3.5 h-3.5" />

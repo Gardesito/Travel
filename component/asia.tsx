@@ -27,7 +27,7 @@ const destinations = [
       "Calles de colores, mar de arrecifes y la calidez del nordeste. Un lugar donde cada atardecer cuenta una historia distinta.",
     image:
       "https://res.cloudinary.com/dtmziqubb/image/upload/v1779130092/7922f17c13da4ca87bf634b2dc00f7ef_ktfxmv.jpg",
-    href: "#",
+    href: "/china",
   },
   {
     id: "02",
@@ -37,7 +37,7 @@ const destinations = [
       "Lagunas turquesas entre picos nevados. Naturaleza en estado puro que te recuerda lo pequeño que somos frente a lo inmenso.",
     image:
       "https://res.cloudinary.com/dtmziqubb/image/upload/v1783706743/Mejora_imagen_sin_modificar_cara_202607081613_2_fz6smk.jpg",
-    href: "#",
+    href: "/india",
   },
   /* {
     id: "03",
