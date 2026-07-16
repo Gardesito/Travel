@@ -51,7 +51,7 @@ const wonders = [
     id: 3,
     title: "Parque Nacional Talampaya ",
     text: "Cañones rojos gigantes y paisajes tipo película. Cañones rojizos y paisajes impactantes declarados Patrimonio Mundial.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705809/a886d278-98da-46a3-86f0-a9caa4cb0d4e.png",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784240149/Remove_person_in_middle_202607161915_py86la.jpg",
     recomendaciones: [
         "Sombrero y mucho agua.",
         "Las excursiones guiadas son la mejor forma de recorrerlo.",
@@ -92,7 +92,7 @@ const wonders = [
     id: 6,
     title: "Lago Nahuel Huapi (Bariloche)",
     text: "El Lago Nahuel Huapi es uno de los paisajes más icónicos de la Patagonia. Es famoso por sus aguas azul profundo, montañas nevadas y bosques infinitos ",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705925/d0ed9a2d-c9f0-4fb2-aba7-ad8164842b07.png",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784239993/Enhance_image_quality_2K_202607161912_y5tn7a.jpg",
     recomendaciones: [
         "Senderismo en verano /  esquí en invierno .",
         "Clima cambiante: vestite en capas.",
@@ -105,7 +105,7 @@ const wonders = [
     id: 7,
     title: "Campo de Piedra Pómez (Catamarca)",
     text: "Es lugar impresionante un desierto blanco surrealista de roca volcánica erosionada.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783705945/ef374dd1-d214-45ac-8e28-d0006c2af262.png",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784239849/IMG_20210402_122243_gf6jyy.jpg",
     recomendaciones: [
         "Lleva agua extra.",
         "Protector solar obligatorio",
