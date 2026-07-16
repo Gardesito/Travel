@@ -240,7 +240,7 @@ export default function Blog1() {
           </section>
 
           {/* Galería */}
-          <section
+          {/* <section
             className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pb-12 sm:pb-16 md:pb-20"
             aria-label="Galería de imágenes"
           >
@@ -286,7 +286,7 @@ export default function Blog1() {
                 Ver más destinos
               </Link>
             </div>
-          </section>
+          </section> */}
         </article>
       </ScrollReveal>
       <Footer />
