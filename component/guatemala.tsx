@@ -32,7 +32,7 @@ const experiences = [
     description:
       "Antigua es una de las ciudades más bonitas del país. Sus calles empedradas, arquitectura colonial y vistas a los volcanes la convierten en una parada imprescindible.",
     image:
-      "https://images.unsplash.com/photo-1574626841274-e2343668e8b4?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784668669/IMG_21871_kpjeuy.jpg",
     listTitle: "Qué hacer",
     items: [
       "Caminar por el centro histórico.",
@@ -50,7 +50,7 @@ const experiences = [
     description:
       "Una de las experiencias más famosas de Guatemala es la caminata al Volcán Acatenango. La recompensa es una de las mejores vistas del Volcán de Fuego.",
     image:
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784668793/Enhance_image_quality_202607211819_oraqoj.jpg",
     listTitle: "Consejos",
     items: [
       "Lleva ropa térmica.",
@@ -65,7 +65,7 @@ const experiences = [
     eyebrow: "Naturaleza y cultura maya",
     description: "El Lago de Atitlán es uno de los lugares más impresionantes del país.",
     image:
-      "https://images.unsplash.com/photo-1586066952228-9d0a32e20fc5?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784668955/IMG_27634_rddtmq.jpg",
     listTitle: "Pueblos recomendados",
     items: [
       "San Juan La Laguna: arte y cultura maya.",

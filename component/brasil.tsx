@@ -44,7 +44,7 @@ const destinations: Destination[] = [
     title: "Ilha Grande",
     subtitle: "Naturaleza en estado puro",
     description: "Sin autos y sin estrés, Ilha Grande es el paraíso para desconectar.",
-    image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1800&q=85",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784666590/Improve_quality_remove_person_202607211743_vsfzli.jpg",
     sections: [{ title: "Lo mejor", items: ["Playa Lopes Mendes, una de las más lindas de Brasil.", "Senderos por la selva.", "Paseos en barco por aguas turquesas."] }],
   },
   {
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
     title: "Florianópolis",
     subtitle: "La isla mágica del sur",
     description: "Florianópolis, conocida como Floripa, es una mezcla perfecta entre naturaleza y calidad de vida. Tiene más de 40 playas, cada una con su personalidad.",
-    image: "https://images.unsplash.com/photo-1598301257982-0cf014dabbcd?auto=format&fit=crop&w=1800&q=85",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784666967/Sin_t%C3%ADtulo-1CG_nbksqn.jpg",
     season: ["Verano (diciembre a marzo): ideal para disfrutar las playas, aunque puede haber más turistas.", "Otoño y primavera: clima agradable y menos gente, perfectos para senderismo y explorar la isla.", "Invierno (junio a agosto): más frío y lluvioso, pero disfrutable si buscas tranquilidad."],
     sections: [{ title: "Playas que no te puedes perder", items: [
       "Ilha do Campeche, mi favorita: agua cristalina, arena blanca y naturaleza preservada.",
@@ -68,7 +68,7 @@ const destinations: Destination[] = [
     title: "Maceió",
     subtitle: "El Caribe brasileño",
     description: "El color del agua es simplemente impresionante: tonos turquesa, piscinas naturales y mar tranquilo que parece una postal del Caribe.",
-    image: "https://images.unsplash.com/photo-1564659907532-6b5f98c8e70f?auto=format&fit=crop&w=1800&q=85",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784667101/Sin_t%C3%ADtulo-11C_owou8z.jpg",
     season: ["De septiembre a marzo suele haber más sol.", "Conviene evitar los meses más lluviosos, de abril a julio, aunque el clima es cálido todo el año.", "Para disfrutar las piscinas naturales, revisa la tabla de mareas y elige la marea baja."],
     sections: [{ title: "Playas que enamoran", items: [
       "Ponta Verde: perfecta para caminar al atardecer y disfrutar del mar calmo.",
@@ -84,7 +84,7 @@ const destinations: Destination[] = [
     title: "São Luís",
     subtitle: "Historia y cultura",
     description: "Una ciudad colonial con fuerte influencia portuguesa. El centro histórico está lleno de casas coloridas con azulejos y es una parada clave antes de ir a Lençóis Maranhenses.",
-    image: "https://images.unsplash.com/photo-1596395819057-e37f55a8516b?auto=format&fit=crop&w=1800&q=85",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784667481/Sin_t%C3%ADtulo-158_bkvwzf.jpg",
     season: ["De septiembre a febrero: clima cálido y seco.", "Evita las lluvias intensas de marzo a julio, que pueden dificultar los paseos."],
     sections: [{ title: "Qué visitar", items: [
       "Centro histórico: Patrimonio de la Humanidad, con casas coloniales y azulejos portugueses.",
@@ -100,7 +100,7 @@ const destinations: Destination[] = [
     title: "Lençóis Maranhenses",
     subtitle: "Un paisaje de otro planeta",
     description: "Los Lençóis Maranhenses son uno de los paisajes más impresionantes de Brasil: dunas blancas infinitas intercaladas con lagunas cristalinas de agua dulce. Parece un desierto, pero en temporada de lluvias se llena de vida y color. Caminar entre sus dunas es una experiencia difícil de olvidar.",
-    image: "https://images.unsplash.com/photo-1625488053875-51c3c6410f83?auto=format&fit=crop&w=1800&q=85",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784667976/Enhance_image_quality_202607211806_outegn.jpg",
     season: ["Junio a septiembre: las lagunas están llenas, los colores son más intensos y el clima es seco.", "Evita las lluvias intensas de enero a abril, porque algunas áreas pueden ser inaccesibles."],
     sections: [{ title: "Principales puntos de visita", items: [
       "Barreirinhas: principal base para excursiones, agencias y alojamiento.",

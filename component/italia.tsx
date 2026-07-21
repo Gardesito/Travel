@@ -59,7 +59,7 @@ const destinations: Destination[] = [
     description:
       "Florencia es una ciudad perfecta para los amantes del arte, la arquitectura y la historia.",
     image:
-      "https://images.unsplash.com/photo-1543429258-cc721a8d7f2f?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784670282/Enhance_image_quality_202607211844_xf6lgw.jpg",
     placesTitle: "Qué visitar",
     places: [
       "Duomo de Florencia.",
@@ -80,7 +80,7 @@ const destinations: Destination[] = [
     description:
       "Milán muestra una cara más moderna de Italia, combinando historia, compras y una gran oferta gastronómica.",
     image:
-      "https://images.unsplash.com/photo-1520440229-6469a149ac59?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784669658/IMG_4718_ubwhmd.jpg",
     placesTitle: "Qué visitar",
     places: [
       "Duomo de Milán.",

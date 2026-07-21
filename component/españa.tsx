@@ -36,7 +36,7 @@ const destinations: Destination[] = [
     description:
       "Madrid combina grandes museos, barrios con personalidad y una gastronomía excelente.",
     image:
-      "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784669103/Sin_t%C3%ADtulo-1cccca_yuqety.jpg",
     placesTitle: "Lugares clave",
     places: [
       "Museo del Prado.",
@@ -56,7 +56,7 @@ const destinations: Destination[] = [
     description:
       "Perfecta como excursión desde Madrid o como parada intermedia. Toledo parece un museo al aire libre: cristianos, musulmanes y judíos dejaron una mezcla única.",
     image:
-      "https://images.unsplash.com/photo-1561632669-7f55f7975606?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784669165/IMG_4709_ffktaq.jpg",
     placesTitle: "No perderse",
     places: [
       "Alcázar de Toledo.",
@@ -72,7 +72,7 @@ const destinations: Destination[] = [
     description:
       "Sevilla es una de las ciudades más encantadoras de España. Sus calles llenas de naranjos, patios y plazas hacen que sea ideal para caminar sin prisa.",
     image:
-      "https://images.unsplash.com/photo-1558642084-fd07fae5282e?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784669207/IMG_4710_yf0qkg.jpg",
     placesTitle: "Imprescindibles",
     places: [
       "Real Alcázar de Sevilla, un palacio histórico con jardines espectaculares.",
@@ -90,7 +90,7 @@ const destinations: Destination[] = [
     description:
       "Zaragoza reúne patrimonio religioso, arquitectura islámica y sabores aragoneses a orillas del río Ebro.",
     image:
-      "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784669251/IMG_4713_wk9y4w.jpg",
     placesTitle: "Qué visitar",
     places: [
       "Basílica de Nuestra Señora del Pilar.",
@@ -107,7 +107,7 @@ const destinations: Destination[] = [
     description:
       "Barcelona mezcla arquitectura única, playa y una gran vida cultural.",
     image:
-      "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1800&q=85",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784669427/cf232832-89ff-412e-8ca1-5d7c8cc8bc6c.png",
     placesTitle: "Imprescindibles",
     places: [
       "Basílica de la Sagrada Familia.",

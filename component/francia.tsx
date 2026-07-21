@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 });
 
 const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=2000&q=90";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1784669566/IMG_4714.JPG1_cdmu5g.jpg";
 
 const places = [
   {
