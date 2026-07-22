@@ -5,7 +5,6 @@ import { Playfair_Display } from "next/font/google";
 import {
   MapPin,
   ArrowRight,
-  Compass,
   Landmark,
   Globe,
   Mountain,
@@ -258,7 +257,7 @@ export default function Destinos() {
     <ScrollReveal>
       <section
         id="destinos"
-        className={`${playfair.variable} relative w-full overflow-hidden py-14 sm:py-16 md:py-20 lg:py-24`}
+        className={`${playfair.variable} relative w-full overflow-hidden pt-14 pb-10 sm:pt-16 sm:pb-12 md:pt-20 md:pb-14 lg:pt-24`}
         style={{ backgroundColor: "#f8f9fa" }}
         aria-labelledby="destinos-heading"
       >
@@ -303,26 +302,7 @@ export default function Destinos() {
             ))}
           </div>
 
-          <div className="relative mt-12 sm:mt-14 md:mt-16">
-            <FlightPathDecor
-              flip
-              className="hidden sm:block absolute left-1/2 -translate-x-1/2 bottom-2 w-64 md:w-80 h-12 opacity-70"
-            />
-
-            <div className="flex justify-center relative z-10 pt-2">
-         {/*      <Link
-                href="/blog1"
-                className="inline-flex items-center gap-2.5 sm:gap-3 px-8 sm:px-12 py-3.5 sm:py-4 rounded-full border-2 border-dashed font-semibold text-xs sm:text-sm tracking-[0.16em] uppercase transition-all duration-300 hover:bg-[#5D87FF]/5 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-[#f8f9fa]"
-                style={{ borderColor: ACCENT, color: ACCENT }}
-              >
-                <Compass className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2} />
-                Ver más destinos
-              </Link> */}
-            </div>
-          </div>
         </div>
-
-        <FlightPathDecor className="hidden md:block absolute left-0 right-0 bottom-6 h-8 opacity-40 px-12" />
       </section>
     </ScrollReveal>
   );

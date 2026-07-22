@@ -87,7 +87,7 @@ export default function Hero() {
               className="absolute inset-0 w-full h-full object-cover"
             >
               <source
-                src="https://res.cloudinary.com/dtmziqubb/video/upload/v1783538800/banner_video_inicio_1_caly5g.webm"
+                src="https://res.cloudinary.com/dtmziqubb/video/upload/v1784750800/banner_video_inicio_1_weebhp.webm"
                 type="video/webm"
               />
             </video>

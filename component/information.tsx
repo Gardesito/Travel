@@ -67,37 +67,6 @@ function FourPointStar({
   );
 }
 
-function FlightPathTop() {
-  return (
-    <div
-      className="absolute top-6 sm:top-8 left-0 right-0 h-12 pointer-events-none opacity-60"
-      aria-hidden
-    >
-      <svg
-        className="w-full h-full"
-        viewBox="0 0 800 48"
-        fill="none"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M0 35 Q 200 8, 400 25 T 800 18"
-          stroke="#D1D5DB"
-          strokeWidth="1.5"
-          strokeDasharray="6 6"
-        />
-      </svg>
-      <div
-        className="absolute left-[42%] sm:left-[45%] top-1 -rotate-[12deg]"
-        style={{ color: ACCENT }}
-      >
-        <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-        </svg>
-      </div>
-    </div>
-  );
-}
-
 function PassportStamp({
   className,
   flip,
@@ -179,10 +148,9 @@ export function FeatureSection() {
   return (
     <ScrollReveal>
       <section
-        className={`${playfair.variable} relative w-full overflow-hidden bg-white py-14 sm:py-16 md:py-20 lg:py-24`}
+        className={`${playfair.variable} relative w-full overflow-hidden bg-white pt-10 pb-14 sm:pt-12 sm:pb-16 md:pt-14 md:pb-20 lg:pb-24`}
         aria-labelledby="information-heading"
       >
-        <FlightPathTop />
         <PassportStamp className="left-2 lg:left-6 top-20 opacity-70" />
         <PassportStamp className="right-2 lg:right-6 bottom-12 opacity-50" flip />
 
