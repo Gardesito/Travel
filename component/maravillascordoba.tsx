@@ -32,7 +32,7 @@ const wonders = [
         "Fotografía de paisajes infinitos.",
        ],
     
-      mejorEpoca: " Noviembre a marzo (clima más fresco y seco, menos calor y menos lluvias)"},
+      mejorEpoca: " el verano (diciembre a marzo) es ideal para playa, atardecer , mientras que el invierno y la primavera (agosto a noviembre) son perfectos para ver aves"},
   {
     id: 2,
     title: "Cerro Champaquí ",
@@ -57,7 +57,7 @@ const wonders = [
     
       ],
     
-      mejorEpoca: "Mayo a septiembre (temporada seca)"},
+      mejorEpoca: ": Es durante la primavera (octubre a diciembre) y el otoño (marzo a mayo)"},
   {
     id: 4,
     title: "Cueva de los Pajaritos",
@@ -83,7 +83,7 @@ const wonders = [
         
       ],
     
-      mejorEpoca: "Noviembre a febrero (Clima fresco y seco, evitando el calor extremo y la humedad del verano)"},
+      mejorEpoca: "Otoño (marzo a mayo) y la primavera (septiembre a noviembre)"},
   {
     id: 6,
     title: " Cuevas de Ongamira ",
@@ -96,7 +96,7 @@ const wonders = [
       
       ],
     
-      mejorEpoca: "Abril-junio y septiembre-octubre (temperaturas agradables y menos turistas que en julio-agosto)"},
+      mejorEpoca: "Primavera (de septiembre a noviembre) y el otoño (de marzo a mayo)"},
   {
     id: 7,
     title: " Cerro Uritorco ",
@@ -109,7 +109,7 @@ const wonders = [
         
       ],
     
-      mejorEpoca: "rimavera (abril-mayo) y otoño (septiembre-octubre) temperaturas agradables y paisajes espectaculares con flores o follaje otoñal."
+      mejorEpoca: "Primavera (de septiembre a noviembre) y el otoño (de marzo a mayo)"
 },
 ];
 

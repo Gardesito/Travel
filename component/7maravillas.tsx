@@ -17,7 +17,7 @@ const HERO_IMAGE =
   "https://res.cloudinary.com/dtmziqubb/image/upload/v1777396439/Sin_t%C3%ADtulo-1dasdsadasdas_fgdplv.jpg";
 
 const INTRO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1772219101/Sin_t%C3%ADtulo-1VX_tgercw.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1785253415/Sin_t%C3%ADtulo-1-Recuperadocccccccc_fqvkdx.jpg";
 
 
 const wonders = [
@@ -37,7 +37,7 @@ const wonders = [
     id: 2,
     title: "Cristo Redentor (Brasil)",
     text: "En 2018, llegó la segunda: Ver esa majestuosa estatua sobre el cerro Corcovado y contemplar toda la ciudad desde las alturas fue una experiencia que realmente te deja sin palabras. La combinación de paisaje, arquitectura y emoción hace que sea un lugar inolvidable para cualquier viajero",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483396/mejora_la_calidad_de_esta_202604291422_jtmzjz.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1785260657/Sin_t%C3%ADtulo-163_zrvyeg.jpg",
     recomendaciones: [
         "Ir en días despejados",
         "Comprar entrada anticipada",
@@ -102,7 +102,7 @@ const wonders = [
     id: 7,
     title: "Gran Muralla China (China)",
     text: "Mi última maravilla 2024 , no lo podía creer , desde lo alto de sus sinuosos caminos de piedra, comprendí por qué dicen que es visible desde el cielo. Cada ladrillo parecía susurrar historias de guerreros y emperadores, y el viento traía consigo ecos de siglos pasados. Sentí que caminaba por un hilo que une tiempo y esfuerzo humano, y la inmensidad me dejó sin aliento",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1774457172/Rectangle_7_cn7a63.png",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1784671110/Sin_t%C3%ADtulo-1ccc1123123_ynzayz.jpg",
     recomendaciones: [
         "Usar calzado cómodo (muchas subidas)",
         "Evitar feriados chinos",
@@ -110,7 +110,7 @@ const wonders = [
         
       ],
     
-      mejorEpoca: "rimavera (abril-mayo) y otoño (septiembre-octubre) temperaturas agradables y paisajes espectaculares con flores o follaje otoñal."
+      mejorEpoca: "Primavera (abril-mayo) y otoño (septiembre-octubre) temperaturas agradables y paisajes espectaculares con flores o follaje otoñal."
 },
 ];
 

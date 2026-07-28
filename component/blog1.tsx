@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 const HERO_IMAGE =
-  "https://res.cloudinary.com/dtmziqubb/image/upload/v1783020229/Mejora_calidad_no_cambies_persona_202607021623_plksqy.jpg";
+  "https://res.cloudinary.com/dtmziqubb/image/upload/v1785252234/IMG_4888.JPG_qf2ad8.jpg";
 
 const AVATAR_IMAGE =
   "https://res.cloudinary.com/dtmziqubb/image/upload/v1783021394/VANE_LA_POSTA_50_noyjkc.jpg";
@@ -150,7 +150,7 @@ export default function Blog1() {
                 style={{ color: ACCENT }}
               />
               <p className={`${bodyText} max-w-2xl mx-auto`}>
-                Soy Vanesa Cordoba y vengo de un pueblito de la localidad de La
+                Soy Vanesa Córdoba de un pueblito de la localidad de La
                 Posta. Crecí entre calles de tierra, rutinas simples y sueños
                 grandes. Desde chica miraba los aviones pasar y me quedaba
                 imaginando cómo sería estar ahí arriba, viajando, descubriendo,
@@ -232,8 +232,7 @@ export default function Blog1() {
                   de dónde vengamos, sino hacia dónde nos animamos a ir.
                 </p>
                 <p className={`${bodyText} font-semibold`} style={{ color: NAVY }}>
-                  Bienvenidos a mi viaje. Yo soy Vanesa, la chica de La Posta
-                  que un día miró el cielo... y decidió volar.
+                Bienvenido a mi viaje. Espero que cada página te inspire a creer en ti y a seguir tus propios sueños.
                 </p>
               </div>
             </ContentCard>

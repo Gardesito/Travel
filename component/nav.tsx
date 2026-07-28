@@ -131,7 +131,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 xl:px-8 flex items-center justify-end py-2.5 gap-6 text-xs">
           <a
-            href="tel:+5493517194942"
+            href="tel:+5493512435151"
             className={`flex items-center gap-1.5 hover:opacity-80 transition-opacity ${topBarColor}`}
             style={topBarStyle}
           >
@@ -325,9 +325,9 @@ export default function Navbar() {
             )}
 
             <div className="mt-3 pt-3 border-t border-white/15 space-y-2 text-white/75 text-xs">
-              <a href="tel:+5493517194942" className="flex items-center gap-2 hover:text-white">
+              <a href="tel:+5493512435151" className="flex items-center gap-2 hover:text-white">
                 <Phone className="w-3.5 h-3.5" />
-                +54 9 351 719 4942
+                +5493512435151
               </a>
               <a
                 href="https://www.instagram.com/vane_almaviajera/"

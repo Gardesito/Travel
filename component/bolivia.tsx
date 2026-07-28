@@ -7,13 +7,18 @@ import { Check, MapPin, Sparkles } from "lucide-react";
 import { NAVY, ACCENT } from "@/lib/theme";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400", "500", "600", "700"], style: ["normal", "italic"], variable: "--font-playfair" });
-const HERO_IMAGE = "https://images.unsplash.com/photo-1548018560-c7196548e84d?auto=format&fit=crop&w=2000&q=90";
-const ALTIPLANO_IMAGE = "https://images.unsplash.com/photo-1531761535209-180857e963b9?auto=format&fit=crop&w=1800&q=85";
-const CITY_IMAGE = "https://images.unsplash.com/photo-1587813894377-65fdb01361ab?auto=format&fit=crop&w=1800&q=85";
-const SALAR_IMAGE = "https://images.unsplash.com/photo-1548018560-c7196548e84d?auto=format&fit=crop&w=1800&q=85";
+const HERO_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785259464/Sin_t%C3%ADtulo-11c3c_fb75ar.jpg";
+const LA_PAZ_IMAGE = "https://images.unsplash.com/photo-1587813894377-65fdb01361ab?auto=format&fit=crop&w=1800&q=85";
+const COCHABAMBA_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785256540/Sin_t%C3%ADtulo-1C1C_qr6m8r.jpg";
+const TARATA_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785259426/Enhance_image_quality_202607281423_q0ljja.jpg";
+const TUNARI_IMAGE = "https://images.unsplash.com/photo-1531761535209-180857e963b9?auto=format&fit=crop&w=1800&q=85";
+const SALAR_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785259464/Sin_t%C3%ADtulo-11c3c_fb75ar.jpg";
+const ORURO_IMAGE = "https://images.unsplash.com/photo-1531761535209-180857e963b9?auto=format&fit=crop&w=1800&q=85";
+const CITY_IMAGE = LA_PAZ_IMAGE;
+const ALTIPLANO_IMAGE = TUNARI_IMAGE;
 
 type Place = { id: number; title: string; subtitle: string; description: string; image: string; activities: string[]; recommendations: string[]; advice?: string; season?: string[] };
-const places: Place[] = [
+const basePlaces: Place[] = [
   { id: 1, title: "La Paz", subtitle: "Una ciudad entre montañas", description: "La Paz es una ciudad única, construida en un enorme valle rodeado por montañas y dominada por la imponente silueta del Illimani. Su combinación de cultura, historia y vida cotidiana la convierten en una parada imprescindible.", image: CITY_IMAGE, activities: ["Recorrer la ciudad en el sistema de teleféricos.", "Visitar la Plaza Murillo y la Basílica de San Francisco.", "Pasear por el Mercado de las Brujas.", "Explorar la Calle Jaén.", "Hacer una excursión al Valle de la Luna."], recommendations: ["Dedica al menos 2 o 3 días para conocer la ciudad.", "Utiliza los teleféricos para desplazarte y disfrutar de las vistas.", "Lleva siempre una chaqueta, ya que el clima cambia rápidamente."], advice: "La Paz está a más de 3.600 metros sobre el nivel del mar. Tómate el primer día con calma, bebe mucha agua y evita comidas muy pesadas para facilitar la adaptación a la altura." },
   { id: 2, title: "Cochabamba", subtitle: "La Ciudad de la Eterna Primavera", description: "Cochabamba ofrece un clima agradable durante casi todo el año y es famosa por su excelente gastronomía.", image: CITY_IMAGE, activities: ["Visitar el Cristo de la Concordia.", "Pasear por la Plaza 14 de Septiembre.", "Conocer el Palacio Portales.", "Disfrutar de la gastronomía local."], recommendations: ["Prueba platos tradicionales como el silpancho, el pique macho y el chicharrón.", "Reserva al menos dos días para recorrer la ciudad."], advice: "Si eres amante de la buena comida, Cochabamba es uno de los mejores destinos gastronómicos de Bolivia." },
   { id: 3, title: "Tarata", subtitle: "Encanto colonial", description: "Tarata es uno de los pueblos coloniales mejor conservados del país.", image: CITY_IMAGE, activities: ["Caminar por sus calles empedradas.", "Visitar la iglesia colonial.", "Disfrutar de su plaza principal.", "Probar la gastronomía tradicional."], recommendations: ["Es una excelente excursión de un día desde Cochabamba.", "Lleva efectivo, ya que algunos comercios pequeños no aceptan tarjetas."] },
@@ -21,6 +26,20 @@ const places: Place[] = [
   { id: 5, title: "Salar de Uyuni", subtitle: "El mayor desierto de sal del mundo", description: "El mayor desierto de sal del mundo es uno de los paisajes más impresionantes de Sudamérica.", image: SALAR_IMAGE, activities: ["Tomar fotografías con perspectiva.", "Visitar la Isla Incahuasi, si las condiciones lo permiten.", "Contemplar el amanecer y el atardecer.", "Dormir en un hotel construido con bloques de sal."], recommendations: ["Reserva un tour con una agencia de buena reputación.", "Lleva gafas de sol con protección UV.", "Usa protector solar incluso cuando esté nublado.", "Lleva batería adicional para la cámara y el teléfono."], season: ["Temporada seca (mayo a noviembre): ideal para recorrer el salar en vehículo.", "Temporada de lluvias (enero a marzo): se forma el famoso efecto espejo."] },
   { id: 6, title: "Oruro", subtitle: "Historia minera y riqueza cultural", description: "Oruro destaca por su historia minera, sus tradiciones y una de las celebraciones más famosas de Bolivia.", image: ALTIPLANO_IMAGE, activities: ["Recorrer el centro histórico.", "Visitar museos.", "Conocer el Santuario de la Virgen del Socavón.", "Si viajas en febrero o marzo, asistir al famoso Carnaval de Oruro."], recommendations: ["Reserva alojamiento con mucha anticipación durante el carnaval.", "Aprovecha para conocer la historia minera de la ciudad."] },
 ];
+
+const placeImages = [
+  LA_PAZ_IMAGE,
+  COCHABAMBA_IMAGE,
+  TARATA_IMAGE,
+  TUNARI_IMAGE,
+  SALAR_IMAGE,
+  ORURO_IMAGE,
+];
+
+const places: Place[] = basePlaces.map((place, index) => ({
+  ...place,
+  image: placeImages[index],
+}));
 
 const travelInfo = [
   { title: "Documentación", items: ["Consulta los requisitos de entrada según tu nacionalidad antes de viajar."] },
