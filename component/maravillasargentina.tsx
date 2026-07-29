@@ -46,7 +46,7 @@ const wonders = [
         "Quédate en silencio un rato para escuchar el hielo romperse."
       ],
     
-      mejorEpoca: "Diciembre a marzo (verano en Brasil) o septiembre a noviembre (primavera)"},
+      mejorEpoca: "Primavera y el Verano  entre octubre y marzo"},
   {
     id: 3,
     title: "Parque Nacional Talampaya ",
@@ -113,7 +113,7 @@ const wonders = [
         
       ],
     
-      mejorEpoca: "rimavera (abril-mayo) y otoño (septiembre-octubre) temperaturas agradables y paisajes espectaculares con flores o follaje otoñal."
+      mejorEpoca: "Primavera (abril-mayo) y otoño (septiembre-octubre) temperaturas agradables y paisajes espectaculares con flores o follaje otoñal."
 },
 ];
 

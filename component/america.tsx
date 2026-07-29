@@ -56,7 +56,7 @@ const destinations = [
     description:
       "Ruinas mayas frente al Caribe. Historia antigua y aguas cristalinas en un solo horizonte inolvidable.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1779114368/40e54fa57c4e20c2dd0de66360a3b67e_zgatgc.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1785259410/IMG_4904_koyvhr.jpg",
     href: "/bolivia",
   },
 ];

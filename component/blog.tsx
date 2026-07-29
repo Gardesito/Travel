@@ -51,7 +51,7 @@ const posts = [
     titulo: "Córdoba",
     ubicacion: "Argentina",
     imagen:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1765215006/IMG_00005_zxz3wo.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1785344100/de407b6c-01e0-41d8-b374-ade5bd9ea983_hhfoul.jpg",
     descripcion:
       "Sierras, ríos y pueblos con alma. Un pedacito de Argentina que siempre llevo en el corazón.",
     link: "/blog1",

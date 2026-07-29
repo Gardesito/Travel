@@ -8,12 +8,12 @@ import { NAVY, ACCENT } from "@/lib/theme";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400", "500", "600", "700"], style: ["normal", "italic"], variable: "--font-playfair" });
 const HERO_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785259464/Sin_t%C3%ADtulo-11c3c_fb75ar.jpg";
-const LA_PAZ_IMAGE = "https://images.unsplash.com/photo-1587813894377-65fdb01361ab?auto=format&fit=crop&w=1800&q=85";
+const LA_PAZ_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785341565/198A98C3-4A74-4494-BB82-B4F8971A1A60_1_105_c_evtbzr.jpg";
 const COCHABAMBA_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785256540/Sin_t%C3%ADtulo-1C1C_qr6m8r.jpg";
 const TARATA_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785259426/Enhance_image_quality_202607281423_q0ljja.jpg";
-const TUNARI_IMAGE = "https://images.unsplash.com/photo-1531761535209-180857e963b9?auto=format&fit=crop&w=1800&q=85";
+const TUNARI_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785341656/DC5496B1-60A4-4DE2-B066-0D1165E19F39_1_105_c_w3da4n.jpg";
 const SALAR_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785259464/Sin_t%C3%ADtulo-11c3c_fb75ar.jpg";
-const ORURO_IMAGE = "https://images.unsplash.com/photo-1531761535209-180857e963b9?auto=format&fit=crop&w=1800&q=85";
+const ORURO_IMAGE = "https://res.cloudinary.com/dtmziqubb/image/upload/v1785341600/909C44A7-A127-46BA-8F9B-20F9AE1CF5BA_1_105_c_k83hdy.jpg";
 const CITY_IMAGE = LA_PAZ_IMAGE;
 const ALTIPLANO_IMAGE = TUNARI_IMAGE;
 

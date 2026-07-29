@@ -25,7 +25,7 @@ const wonders = [
     id: 1,
     title: "Laguna de Mar Chiquita",
     text: "La Laguna de Mar Chiquita, también conocida como Ansenuza, es uno de los humedales salinos más grandes de Sudamérica. Su inmensidad crea un ecosistema único donde miles de flamencos encuentran refugio.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1783704898/6c84e0bd-a3cf-48d4-aac6-c601377605e9.png",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1785264093/Enhance_image_quality_202607281541_gxl4ig.jpg",
     recomendaciones: [
         "Avistaje de aves (especialmente flamencos rosados).",
         "Turismo de bienestar gracias a sus aguas salinas.",
@@ -44,7 +44,7 @@ const wonders = [
         "Turismo aventura con vistas panorámicas únicas.",
       ],
     
-      mejorEpoca: "Diciembre a marzo (verano en Brasil) o septiembre a noviembre (primavera)"},
+      mejorEpoca: "Los meses de otoño por su clima estable y temperaturas agradables"},
   {
     id: 3,
     title: "Parque Nacional Quebrada del Condorito ",

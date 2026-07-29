@@ -63,7 +63,7 @@ const wonders = [
     id: 4,
     title: "Petra (Jordania)",
     text: "Mi cuarta maravilla también la visite en el 2018 ,  fue un encuentro con la magia. Un tesoro talado en la roca por los nabateos. Sentí  mucho asombro y no lo podía creer lo que mis ojos veían. Cada detalle de las fachadas me hablaba de ingenio, misterio y belleza imposible de olvidar.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483335/mejora_la_calidad_de_esta_202604291421_1_sjpbqx.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1785343899/Sin_t%C3%ADtulo-1cj_ejsvij.jpg",
     recomendaciones: [
         "Llevar efectivo",
         "Ir temprano o al atardecer",
@@ -89,7 +89,7 @@ const wonders = [
     id: 6,
     title: "Coliseo Romano (Italia)",
     text: "Visite mi sexta maravilla en 2023 ,testigo de historias de gladiadores y multitudes, me envolvió en su historia. Caminar por sus arcos y pasadizos me hizo sentir parte de un relato épico, un puente entre mi presente y la Roma antigua. Fue asombro estar allí.",
-    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1777483403/mejora_la_calidad_de_esta_202604291423_wc7ewc.jpg",
+    image: "https://res.cloudinary.com/dtmziqubb/image/upload/v1785346332/Sin_t%C3%ADtulo-1vsasdasda_brxzjl.jpg",
     recomendaciones: [
         "Comprar entradas online",
         "Evitar horarios pico",

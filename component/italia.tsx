@@ -59,7 +59,7 @@ const destinations: Destination[] = [
     description:
       "Florencia es una ciudad perfecta para los amantes del arte, la arquitectura y la historia.",
     image:
-      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784670282/Enhance_image_quality_202607211844_xf6lgw.jpg",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1785341515/Improve_photo_quality_202607291311_tsqfhl.jpg",
     placesTitle: "Qué visitar",
     places: [
       "Duomo de Florencia.",
@@ -93,6 +93,25 @@ const destinations: Destination[] = [
       "Subir a la terraza del Duomo para disfrutar una vista diferente.",
       "Reservar tiempo para conocer la zona de Navigli, especialmente al atardecer.",
       "Combinar la visita con compras o diseño italiano.",
+    ],
+  },
+  {
+    id: 4,
+    city: "Venecia",
+    eyebrow: "Moda, diseño y elegancia italiana",
+    description:
+      "Venecia es una ciudad única por sus canales, puentes y edificios históricos.",
+    image:
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1784670282/Enhance_image_quality_202607211844_xf6lgw.jpg",
+    placesTitle: "Qué visitar",
+    places: [
+      "Plaza de San Marcos",
+      "Basílica de San Marcos",
+      "Puente de Rialto",
+      "Isla de Murano y Isla de Burano",
+    ],
+    recommendations: [
+      "La primavera (abril-junio) y el otoño (septiembre-octubre) ofrecen clima agradable y menos turistas. Si quieres vivir una experiencia especial, visita la ciudad durante el Carnaval de Venecia, en febrero.",
     ],
   },
 ];
