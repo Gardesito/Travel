@@ -38,7 +38,7 @@ const testimonials: Testimonial[] = [
     text: "Jamás pensé que viajar podía ser tan simple. Me armó un itinerario perfecto, con actividades que realmente disfruté. Me sentí acompañada desde el primer día.",
     date: "Agosto 28, 2025",
     avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&fit=crop&q=80",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1786098352/81bf096d-d8e5-4b1e-8fab-fec08d2ad74c.png",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const testimonials: Testimonial[] = [
     text: "Gracias a sus recomendaciones descubrimos lugares increíbles que no estaban en ningún blog. Además nos ayudó con todas las reservas.",
     date: "Abril 15, 2024",
     avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&q=80",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1786098200/cfc86742-8114-41f7-aa4b-0fa83d0bd1c2.png",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const testimonials: Testimonial[] = [
     text: "Viajamos en familia y todo salió impecable. Desde los alojamientos hasta las actividades, cada detalle estuvo pensado para que disfrutáramos al máximo.",
     date: "Junio 10, 2025",
     avatar:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&h=120&fit=crop&q=80",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1786098146/e134c128-6398-4ac0-a2c3-3e7d375c19d4.png",
   },
   {
     id: 4,
@@ -62,7 +62,7 @@ const testimonials: Testimonial[] = [
     text: "Su calidez y conocimiento hicieron la diferencia. Me animó a animarme a un viaje que postergaba hace años y fue una de las mejores decisiones de mi vida.",
     date: "Marzo 3, 2025",
     avatar:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&h=120&fit=crop&q=80",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1786098294/87d0fa1f-1a6d-4b8d-8f33-2ecdb4c0a47a.png",
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const testimonials: Testimonial[] = [
     text: "Recomendaciones auténticas, sin vueltas. Sentí que viajaba con alguien que realmente conoce los destinos y se preocupa por cada viajero.",
     date: "Enero 20, 2025",
     avatar:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop&q=80",
+      "https://res.cloudinary.com/dtmziqubb/image/upload/v1786098259/cf9547d4-daa0-4c28-b3d8-833bba519719.png",
   },
 ];
 
